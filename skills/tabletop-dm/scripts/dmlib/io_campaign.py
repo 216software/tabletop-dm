@@ -120,7 +120,7 @@ def campaign_lock(campaign_dir: Path, wait_seconds: float = LOCK_WAIT_SECONDS) -
             pass
 
 
-def atomic_write_json(path: Path, data: Dict[str, Any]) -> None:
+def atomic_write_bytes(path: Path, data: bytes) -> None:
     """Write a new, uniquely named temp file in the same folder, flush it to disk, then swap it in.
 
     mkstemp creates the file exclusively, so a planted temp name or symlink is never opened.
@@ -129,8 +129,8 @@ def atomic_write_json(path: Path, data: Dict[str, Any]) -> None:
         raise DmError("campaign_file_is_symlink", "%s is a symbolic link. dm.py will not write through it." % path.name)
     handle, tmp_name = tempfile.mkstemp(dir=str(path.parent), prefix="." + path.name + ".", suffix=".tmp")
     try:
-        with os.fdopen(handle, "w") as stream:
-            stream.write(json.dumps(data, indent=1, sort_keys=False) + "\n")
+        with os.fdopen(handle, "wb") as stream:
+            stream.write(data)
             stream.flush()
             os.fsync(stream.fileno())
         os.replace(tmp_name, str(path))
@@ -140,6 +140,10 @@ def atomic_write_json(path: Path, data: Dict[str, Any]) -> None:
         except OSError:
             pass
         raise
+
+
+def atomic_write_json(path: Path, data: Dict[str, Any]) -> None:
+    atomic_write_bytes(path, (json.dumps(data, indent=1, sort_keys=False) + "\n").encode("utf-8"))
 
 
 def _read_json(path: Path) -> Dict[str, Any]:

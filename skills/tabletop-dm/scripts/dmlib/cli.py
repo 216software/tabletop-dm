@@ -5,8 +5,8 @@ import random
 from pathlib import Path
 from typing import Any, Callable, Dict, List
 
-from . import (cmd_character, cmd_encounter, cmd_log, cmd_lookup, cmd_play, cmd_roll, cmd_seed, cmd_setup, data,
-               io_campaign)
+from . import (cmd_character, cmd_encounter, cmd_log, cmd_lookup, cmd_play, cmd_roll, cmd_seed, cmd_setup, cmd_sketch,
+               data, io_campaign)
 from .errors import DmError, error_envelope, success_envelope
 
 Handler = Callable[[argparse.Namespace, Path, random.Random], Dict[str, Any]]
@@ -53,6 +53,7 @@ HANDLERS = {
     "seed list": cmd_seed.seed_list,
     "seed choose": cmd_seed.seed_choose,
     "seed pick": cmd_seed.seed_pick,
+    "sketch": cmd_sketch.sketch,
 }  # type: Dict[str, Handler]
 
 
@@ -251,6 +252,10 @@ def build_parser() -> argparse.ArgumentParser:
     p = _leaf(seed, "choose", "seed choose")
     p.add_argument("name")
     _leaf(seed, "pick", "seed pick")
+
+    p = _leaf(sub, "sketch", "sketch")
+    p.add_argument("--shapes", required=True)
+    p.add_argument("--name")
     return parser
 
 
