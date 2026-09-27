@@ -72,7 +72,7 @@ class TestBuild(unittest.TestCase):
     def test_the_repo_is_a_marketplace_that_lists_this_plugin(self):
         market = json.loads((REPO_ROOT / ".claude-plugin" / "marketplace.json").read_text())
         manifest = json.loads((REPO_ROOT / ".claude-plugin" / "plugin.json").read_text())
-        self.assertEqual(market["name"], "tabletop-dm")
+        self.assertEqual(market["name"], manifest["name"])
         self.assertIn("name", market["owner"])
         self.assertEqual([p["name"] for p in market["plugins"]], [manifest["name"]])
         self.assertEqual(market["plugins"][0]["source"], "./")
@@ -92,7 +92,7 @@ class TestBuild(unittest.TestCase):
         self.assertTrue(openai["interface"]["capabilities"])
         self.assertTrue(openai["interface"]["defaultPrompt"])
         market = json.loads((REPO_ROOT / ".agents" / "plugins" / "marketplace.json").read_text())
-        self.assertEqual(market["name"], "tabletop-dm")
+        self.assertEqual(market["name"], claude["name"])
         [entry] = market["plugins"]
         self.assertEqual(entry["name"], claude["name"])
         self.assertEqual(entry["source"], {"source": "local", "path": "./"})

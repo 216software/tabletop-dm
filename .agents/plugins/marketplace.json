@@ -1,9 +1,9 @@
 {
-  "name": "tabletop-dm",
-  "interface": { "displayName": "Tabletop DM" },
+  "name": "216-tabletop-dm",
+  "interface": { "displayName": "Tabletop DM (216software fork)" },
   "plugins": [
     {
-      "name": "tabletop-dm",
+      "name": "216-tabletop-dm",
       "source": { "source": "local", "path": "./" },
       "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
       "category": "Games"

@@ -1,7 +1,7 @@
 {
-  "name": "tabletop-dm",
+  "name": "216-tabletop-dm",
   "version": "0.2.2",
-  "description": "A text-only tabletop role-playing game, compatible with fifth edition. The assistant is the Dungeon Master, and a bundled script keeps the dice and the numbers honest.",
+  "description": "A text-only tabletop role-playing game, compatible with fifth edition. The assistant is the Dungeon Master, and a bundled script keeps the dice and the numbers honest. 216software's fork of Brad Bush's tabletop-dm.",
   "author": { "name": "Brad Bush" },
   "license": "MIT",
   "skills": "./skills/",
