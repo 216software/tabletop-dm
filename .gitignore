@@ -12,3 +12,7 @@ playtests/
 # Tools and OS
 .playwright-mcp/
 .DS_Store
+
+# Image display POC (issue #1 on the 216software fork)
+experiments/image-display-poc/venv/
+experiments/image-display-poc/output/
