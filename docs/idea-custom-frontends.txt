@@ -1,0 +1,88 @@
+Idea notes: moving beyond a Claude Code / Cowork skill
+=======================================================
+
+These are two related but separate ideas for taking this project beyond
+"a skill installed into an existing Claude host." Neither is built. Both
+trade away the project's current core design goal (GRILL.md: one skill,
+zero install, runs identically in Claude Code, Cowork, and claude.ai) for a
+richer or more flexible experience that only a custom app could offer.
+
+
+Idea 1: a custom harness for a better gameplay experience
+-----------------------------------------------------------
+
+Today, the whole experience lives inside whatever chat surface the host
+provides: a scrolling transcript of the DM's prose, dice results, and (as of
+the sketch feature) an occasional inline image, all mixed into one stream of
+text. There is no persistent view of hero state, and nothing outside that
+transcript.
+
+The idea: build a custom app around this same skill, using the Claude Agent
+SDK (or the raw Messages API with tool use) instead of Claude Code, Cowork,
+or claude.ai as the host. Because dm.py already prints exactly one clean
+JSON line per command (a hard rule in the current design, so that only
+stdout ever enters the model's context), a custom harness can tap that same
+JSON to drive a real UI instead of just letting it flow into a transcript:
+
+  - A persistent sidebar showing HP, gold, conditions, inventory, and slots,
+    updated live from the JSON envelope every command already returns.
+  - A dedicated image panel for anything the sketch command writes to
+    art/, instead of an inline image buried in a scrolling chat log.
+  - Custom layout choices generally: a map view, a character sheet tab, a
+    combat tracker during a fight, that a plain chat transcript cannot
+    offer no matter which host runs it.
+
+None of this requires changing dm.py or SKILL.md. It is a different
+consumer of the same script and the same prompt, not a mode of the skill
+itself. The cost is real: it means writing and hosting an actual
+application (a tool-use loop around Claude plus a real frontend), which is
+a materially bigger project than a skill, and it can only run wherever that
+app is deployed, not in any Claude host a player already has installed.
+
+
+Idea 2: refactor so the engine is easy to expose as an API
+-------------------------------------------------------------
+
+Right now, "the DM" is entirely played by an LLM that has read SKILL.md's
+prose instructions and independently decides, on every turn, to shell out to
+dm.py as a subprocess (python3 dm.py <command> --campaign <folder>) and read
+back its one line of JSON. That coupling (an agentic host, running an
+external skill file, invoking a CLI script by shelling out) is exactly what
+lets it run identically in Claude Code, Cowork, and claude.ai today, but it
+also means the whole game can only exist inside a host that behaves that
+way.
+
+The idea: refactor the project so the same rules engine can be driven by a
+backend service instead, over a real API, with the LLM call itself made
+directly against the Claude API rather than happening inside an agent host:
+
+  - dm.py's command handlers (dmlib/cmd_*.py) are already close to pure
+    functions: they take parsed arguments, a skill_root, and an rng, and
+    return a plain dict. Wrapping cli.dispatch in a small HTTP layer (for
+    example, a thin FastAPI or stdlib http.server service) so a client can
+    call something like POST /roll or POST /sketch instead of spawning a
+    subprocess is mostly plumbing, not a rewrite.
+  - The harder half is the DM's judgment itself. Right now that judgment
+    lives entirely in SKILL.md's prose, read and acted on by whatever agent
+    host is running the skill. To run as a real API-backed service, that
+    prose would need to become an explicit system prompt plus a real tool
+    schema (one tool definition per dm.py command) passed to the Claude
+    Messages API's tool use feature, with a backend process that owns the
+    conversation loop: call Claude, get a tool call back, run it against
+    the engine's HTTP API, return the result, repeat. This is the same
+    pattern documented in the claude-api skill's tool-use and MCP material,
+    just pointed at this project's own command set instead of a generic
+    example.
+  - Once the engine is behind a real API and the DM loop is a service Claude
+    is not needed as a code host, playing the game would no longer require
+    Claude Code, Cowork, or claude.ai at all: any frontend (a web app, a
+    mobile app) could be the client, calling the backend service, which
+    calls the Claude API on the game's behalf.
+
+This is a bigger structural change than idea 1: it turns "a skill a Claude
+host runs" into "a hosted game service that happens to call the Claude API
+internally." It would let idea 1's custom frontend be much simpler to build
+(a normal web/mobile client talking to a normal backend, no agent host
+involved), but it means owning hosting, an Anthropic API key and its billing,
+and the DM's conversation loop yourself, none of which this project needs
+today.
