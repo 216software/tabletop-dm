@@ -4,7 +4,7 @@ A text-only tabletop role-playing game, compatible with fifth edition. The AI is
 
 It runs in Claude (the desktop app and Claude Code), in the ChatGPT desktop app, and in OpenAI Codex. It uses the plan you already have. There is no API key and no server.
 
-What you get: levels 1 to 5, four classes (Fighter, Rogue, Wizard, Cleric), 43 spells and 44 monsters from SRD 5.1, and a choice of worlds, each with its own starting adventures (the Senn Vale ships with five). Every number is saved the moment it changes, and the story at every scene, so you can stop and pick the game up days later.
+What you get: levels 1 to 5, four classes (Fighter, Rogue, Wizard, Cleric), 43 spells and 44 monsters from SRD 5.1, and a choice of worlds, each with its own starting adventures (Fneb ships with four, and the Senn Vale with five). Every number is saved the moment it changes, and the story at every scene, so you can stop and pick the game up days later.
 
 > **Want to play it unspoiled?** Do not open any world's `seeds/` folder or `metaplot.md` under `skills/tabletop-dm/worlds/`. They hold the story's secrets. Each world's `world.json`, `bible.md` and `seeds/teasers.md` are safe to read.
 

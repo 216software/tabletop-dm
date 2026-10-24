@@ -1,33 +1,3 @@
-<!--
-DRAFT FOR MATT TO MARK UP. Delete this block before the world moves into
-the skill.
-
-SECRET FILE. Built from the farmers section of fneb/fneb.txt. New in
-this draft, for you to check:
-
-- The old woman is Granny Moss. The hero lives on her farm or near it.
-  Why is the player's to say.
-
-- The farming game is reworked so the script does every sum, because the
-  DM may never do gold arithmetic in its head. Each plot's harvest is
-  rolled straight in gold, and rent is a flat amount per plot that the
-  script subtracts.
-
-- The soldiers are the Scythe Company, mercenaries under a black scythe
-  on an orange flag: the banner in the witch's vision in the oasis door.
-  Their captain is Rusk.
-
-- The door's climax can be a rent strike: the whole valley refuses at
-  once. That is R5 at village size.
-
-- Gorse, the night druid from the metaplot, arrives when the woods burn.
-
-- The shared events keep the same days as the ghoul-raids door: Moe is
-  flogged at 30, and the spores fall in the 20s.
-
-- Seed id: valley-farm.
--->
-
 # The valley farm
 
 ## Tone

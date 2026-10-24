@@ -30,10 +30,11 @@ Brad plays this game. He must not be spoiled.
 - `SKILL.md` stays under 500 lines. Reference files are one level deep and do not link to each other. No em-dashes in skill prose.
 - Adding a world is a data change: a folder in `skills/tabletop-dm/worlds/` with a `world.json`. See `docs/WORLDS.md`.
 - Adding a class, spell, monster or item is a data change in `skills/tabletop-dm/data/`, with no code change. SRD 5.1 content only, and no Wizards product identity (the ban list is in `tests/test_data_real.py`).
-- Markdown in the top-level `worlds/` drafts follows Matt's format:
+- Markdown in the top-level `worlds/` drafts, and in Fneb's files in `skills/tabletop-dm/worlds/fneb/`, follows Matt's format:
   - Wrap every line at 72 characters. A wrapped list item indents its continuation lines to line up with the item text.
   - Put a blank line after every paragraph and after every list item.
   - Table rows cannot wrap, so keep each row within 72 characters and put no blank lines inside a table.
+  - Exception: `seeds/teasers.md` keeps one door per line, because the game reads it that way.
 - Mutation checks must run Python with `-B` and clear `__pycache__`, or a restored file reuses the mutated bytecode.
 
 ## Verification

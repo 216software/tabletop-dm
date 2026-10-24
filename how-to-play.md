@@ -99,7 +99,7 @@ Each world's secrets live in the repository. To play unspoiled, do not open:
 
 - `skills/tabletop-dm/worlds/*/metaplot.md`
 - `skills/tabletop-dm/worlds/*/seeds/` (except `teasers.md`)
-- `worlds/` at the top of the repo, which holds drafts of worlds still being written
+- `worlds/` at the top of the repo, which holds the notes and decisions behind each world
 
 ## Getting new versions
 
@@ -115,7 +115,12 @@ Then restart Claude Code. Your campaigns are safe: they live in their own folder
 
 ## Which worlds can I play?
 
-Only the worlds in `skills/tabletop-dm/worlds/` appear in the game. Right now that is **the Senn Vale**. The top-level `worlds/` folder holds worlds that are still being written, such as Fneb, and those do not appear until they move into the skill.
+Only the worlds in `skills/tabletop-dm/worlds/` appear in the game. Right now there are two:
+
+- **Fneb:** a barony on a cold sea, with a cursed desert, haunted mountains, plague and the restless dead. Four doors. Grim, with comic relief.
+- **The Senn Vale:** a warm river valley with something a little off. Five doors.
+
+The top-level `worlds/` folder holds notes for worlds that are still being written. Nothing there appears in the game.
 
 ## Uninstall
 

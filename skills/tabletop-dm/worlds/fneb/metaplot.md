@@ -1,39 +1,3 @@
-<!--
-DRAFT FOR MATT TO MARK UP. Delete this block before the world moves into
-the skill.
-
-SECRET FILE. The DM reads this at campaign setup. Players do not.
-
-Built from decisions 1 to 5 and 13 in decisions.md. Where your notes
-left a gap, I made something up. Check these first:
-
-- Names: the priest is Brother Severin, the purge-priest who raised him
-  is Father Hallam, the witch is Hessa, the wraith was once the mage
-  Corvane, and the night druid is Gorse.
-
-- The oasis is a second seal. A fragment lies under the cursed desert,
-  and that is why the desert's paths move. The seal's crystal is what
-  makes the oasis water holy.
-
-- The cabal survives by feeding on mortals coercing mortals: rents
-  squeezed, purges, slavery. That ties the villains to the theme.
-
-- The canary and the other talking animals are what is left of the Young
-  Ones who joined the Refusal. They play a game, the Wager: will mortals
-  refuse again without being told to? They may nudge but never tell,
-  because a Refusal that is ordered is not a Refusal.
-
-- Your note asked what gave mortals hope at the turning point. My
-  answer: nothing outside them. The Sun and the Green Mother struck only
-  after mortals had already refused together. That is revelation R5.
-
-- The clock is the Long Conjunction: a star alignment the monks are
-  tracking, about 60 days after the spring ships arrive.
-
-- Seed ids for the door table: oasis, relic, ghoul-raids, valley-farm,
-  bandits.
--->
-
 # Fneb: the metaplot
 
 Everything in this file is secret. The DM reads it at the start of a
@@ -254,7 +218,7 @@ The DM may let any of these slip. Each points somewhere.
 | relic | R1, R2, R4 |
 | ghoul-raids | R1, R2, R5 |
 | valley-farm | R1, R3, R5 |
-| bandits | R3, R5 |
+| bandits (not written yet) | R3, R5 |
 
 Every revelation can be reached from at least two doors.
 

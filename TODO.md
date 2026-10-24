@@ -10,22 +10,16 @@ Work happens on the branch `feat/multi-world` (not pushed, not merged).
 
 - Several worlds, chosen at setup: `worlds/<id>/` inside the skill, the `world list` and `world choose` commands, and party.json format 2. Authoring rules are in `docs/WORLDS.md`.
 - The Senn Vale moved to `skills/tabletop-dm/worlds/senn-vale/`.
-- The Fneb drafts, in the top-level `worlds/fneb/`: `decisions.md`, `bible.md`, `metaplot.md`, `seeds/oasis.md`, `seeds/relic.md`, `seeds/ghoul-raids.md` and `seeds/valley-farm.md`.
+- **Fneb is in the game** (2026-10-24): `skills/tabletop-dm/worlds/fneb/` holds the bible, the metaplot, four seeds (oasis, relic, ghoul-raids, valley-farm), the teasers, `world.json` and `credits.md`. The decision record stays in `worlds/fneb/decisions.md`. Matt has not marked up the drafts yet.
 - `how-to-play.md`, for installing from a local checkout and starting a game.
 
-## Fneb: make it playable
+## Fneb: next
 
-Source notes are in `~/Documents/writing/fneb/`. Every decision so far is in `worlds/fneb/decisions.md`. Drafts follow the formatting rule in `CLAUDE.md`.
+Source notes are in `~/Documents/writing/fneb/`. Every decision so far is in `worlds/fneb/decisions.md`. Fneb's Markdown follows the formatting rule in `CLAUDE.md` (the one-line teasers are the exception, because the game reads one door per line).
 
-1. **The relic seed**, `worlds/fneb/seeds/relic.md`: drafted 2026-10-24, waiting for Matt's markup.
-2. **The ghoul-raids seed**, `worlds/fneb/seeds/ghoul-raids.md`: drafted 2026-10-24, waiting for Matt's markup. If the valley town's name, Broadscale, sticks, add it to `bible.md`.
-3. **The valley-farm seed**, `worlds/fneb/seeds/valley-farm.md`: drafted 2026-10-24, waiting for Matt's markup. With it, every revelation is reachable from at least two of the four drafted doors.
-4. **`worlds/fneb/seeds/teasers.md`**: one player-safe sentence of 15 to 30 words per door.
-5. **`world.json`**: the name "Fneb" and a one-sentence player-safe pitch.
-6. **Credits** for Boojamon and MelancholyOcelot (Reddit), in the world folder.
-7. **Ship it:** delete the draft note block at the top of each file (it counts toward the word limits), move the world to `skills/tabletop-dm/worlds/fneb/`, run the whole suite, and check `--version` lists Fneb with no `world_problems`.
-8. **Play it:** reinstall the plugin (see `how-to-play.md`), start a game, and pick Fneb.
-9. **Playtest it** as `PRD.md` section 16 describes, in the gitignored `playtests/` folder.
+1. **Mark up the Fneb files** in `skills/tabletop-dm/worlds/fneb/`. Each draft listed what it invented in a note block, now removed; the lists are in the commit history (`git log -- worlds/fneb`).
+2. **Play it:** reinstall the plugin (see `how-to-play.md`), start a game, and pick Fneb.
+3. **Playtest it** as `PRD.md` section 16 describes, in the gitignored `playtests/` folder.
 
 ### Open Fneb questions
 
@@ -34,7 +28,7 @@ Source notes are in `~/Documents/writing/fneb/`. Every decision so far is in `wo
 
 ## Fneb: later
 
-- **The bandits seed**, the fifth door, from `who-let-the-unholy-out/save-the-farmers.txt`.
+- **The bandits seed**, the fifth door, from `who-let-the-unholy-out/save-the-farmers.txt`. The metaplot's door table already has its row, marked "not written yet". When it ships, drop that note and add a teaser line.
 - **The druid player class** (decision 8): SRD class data and druid spells in `skills/tabletop-dm/data/`, tests, the "four classes" lines in `SKILL.md`, `README.md` and `PRD.md`, and the world test that refuses druid companions (`tests/test_world_files.py`).
 
 ## Engine and release

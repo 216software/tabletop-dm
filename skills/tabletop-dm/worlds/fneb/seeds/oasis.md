@@ -1,28 +1,3 @@
-<!--
-DRAFT FOR MATT TO MARK UP. Delete this block before the world moves into
-the skill.
-
-SECRET FILE. Built from who-let-the-unholy-out/desert-oasis.txt. New in
-this draft, for you to check:
-
-- The cleric who hires the hero is Sister Amity, a scholar of the
-  Lantern Church's gentle faction.
-
-- The local villain is Mother Sall, a thieves' guild boss who survived
-  the plague and profits from it.
-
-- The desert raiders are one tribe, the Bone Beads. Other tribes trade,
-  and bring their sick children to Hessa.
-
-- The witch's vision of a black scythe on an orange flag is the banner
-  of Severin's mercenaries in the valley.
-
-- The leprous beggar from ideas.txt appears in the desert as one of the
-  Wager's avatars.
-
-- Seed id: oasis.
--->
-
 # The oasis
 
 ## Tone

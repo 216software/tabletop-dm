@@ -1,20 +1,3 @@
-<!--
-DRAFT FOR MATT TO MARK UP. Delete this block before the world moves
-into the skill.
-
-- Your notes also have "the port city XYZ" at the end of the mountain
-  trade route. This draft makes it the same city as the capital, so that
-  the route runs desert -> Fneb passes -> valley -> Haldmouth. Say if
-  you want two cities.
-
-Everything below is meant to be player-safe: what someone who grew up
-there knows or has heard.
-
-The secrets (the fragment under the mountain, the cabal, the priest's
-mother, the canary's game) are NOT in here.
-
--->
-
 # Fneb: world bible
 
 Everything in this file is common knowledge. A person who grew up under

@@ -1,27 +1,3 @@
-<!--
-DRAFT FOR MATT TO MARK UP. Delete this block before the world moves into
-the skill.
-
-SECRET FILE. Built from who-let-the-unholy-out/reclaim-the-relic.txt and
-set-everything-right.txt. New in this draft, for you to check:
-
-- Brother Severin hires the hero (decision 4). The old cleric on a cane
-  from your notes is now Father Hallam, Severin's mentor.
-
-- Your two TODOs: the sneaking challenge is a group check against the
-  shrine's watches, and the fight on the way out uses the necropolis
-  bridges, the stream tunnel and the lantern itself.
-
-- The goat farmer's canary is the Wager's avatar from decision 13, and
-  joins the hero here.
-
-- The prayer robe from ideas.txt is Severin's gift to a cleric hero.
-
-- The acolyte is Brother Wick. The shrine's keeper is Keeper Oda. The
-  scout from the border station is Nell Harrow.
-
-- Seed id: relic. -->
-
 # The relic
 
 ## Tone

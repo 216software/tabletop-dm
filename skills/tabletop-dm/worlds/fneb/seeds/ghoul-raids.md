@@ -1,34 +1,3 @@
-<!--
-DRAFT FOR MATT TO MARK UP. Delete this block before the world moves into
-the skill.
-
-SECRET FILE. Built from fneb/fneb.txt and fneb/fneb-lite.txt. New in
-this draft, for you to check:
-
-- Graves vs burning: Fneb burns its dead, so where do the ghouls find
-  graves? From your farm story's "nobody may burn the dead": Severin has
-  banned burning in the valley as a druid rite. The new graveyard is
-  what the ghouls raid.
-
-- The valley town is called Broadscale, after its market scales.
-
-- The wood elves have kept the tuning forks and the jar of lights since
-  the Refusal. Taking them means dealing with the elves, which church
-  law forbids.
-
-- The forks ring only when struck together by different hands at the
-  same moment. That is this door's R5 clue, and it means the hero needs
-  help: companions, or freed prisoners.
-
-- Your evil cleric is Deacon Marl, Severin's man in the valley. He
-  reaches the Eye from the valley side, through natural caves, not
-  through the necropolis.
-
-- Decision 7: no forced death. A sacrifice is offered, never required.
-
-- Seed id: ghoul-raids.
--->
-
 # The ghoul raids
 
 ## Tone
