@@ -1,0 +1,613 @@
+{
+ "format": "tabletop-dm/party",
+ "format_version": 2,
+ "hero_id": "corra-vane",
+ "settings": {
+  "difficulty": "standard",
+  "content_level": "pg13",
+  "tone_answers": {
+   "genre": "grim-with-some-humour",
+   "balance": "even",
+   "length": "campaign"
+  },
+  "world": "fneb",
+  "seed": "valley-farm"
+ },
+ "characters": {
+  "corra-vane": {
+   "id": "corra-vane",
+   "name": "Corra Vane",
+   "class": "rogue",
+   "level": 1,
+   "xp": 0,
+   "background": "Grew up thieving on the Haldmouth docks and ran to the valley when a guild boss wanted her hands.",
+   "bond": "She owes her life to the old farm woman who took her in.",
+   "flaw": "She cannot leave a locked box alone.",
+   "abilities": {
+    "str": 8,
+    "dex": 15,
+    "con": 14,
+    "int": 13,
+    "wis": 12,
+    "cha": 10
+   },
+   "skill_proficiencies": [
+    "stealth",
+    "perception",
+    "sleight-of-hand",
+    "acrobatics",
+    "deception",
+    "insight"
+   ],
+   "expertise": [
+    "stealth",
+    "perception"
+   ],
+   "fighting_style": null,
+   "features": [
+    "expertise",
+    "sneak-attack",
+    "thieves-cant"
+   ],
+   "pending_asi": 0,
+   "pending_spell_picks": 0,
+   "pending_cantrip_picks": 0,
+   "hp": {
+    "current": 10,
+    "max": 10,
+    "temp": 0
+   },
+   "hit_dice": {
+    "die": "d8",
+    "max": 1,
+    "remaining": 1
+   },
+   "life_state": "alive",
+   "death_saves": {
+    "successes": 0,
+    "failures": 0
+   },
+   "grit_used_since_long_rest": false,
+   "conditions": [],
+   "spellcasting": null,
+   "equipped": {
+    "armor": "leather-armor",
+    "shield": null,
+    "weapons": [
+     "rapier",
+     "shortbow",
+     "dagger"
+    ]
+   },
+   "inventory": [
+    {
+     "item": "leather-armor",
+     "quantity": 1
+    },
+    {
+     "item": "rapier",
+     "quantity": 1
+    },
+    {
+     "item": "shortbow",
+     "quantity": 1
+    },
+    {
+     "item": "arrows-20",
+     "quantity": 1
+    },
+    {
+     "item": "quiver",
+     "quantity": 1
+    },
+    {
+     "item": "dagger",
+     "quantity": 2
+    },
+    {
+     "item": "thieves-tools",
+     "quantity": 1
+    },
+    {
+     "item": "backpack",
+     "quantity": 1
+    },
+    {
+     "item": "crowbar",
+     "quantity": 1
+    },
+    {
+     "item": "lantern-hooded",
+     "quantity": 1
+    },
+    {
+     "item": "oil-flask",
+     "quantity": 2
+    },
+    {
+     "item": "tinderbox",
+     "quantity": 1
+    },
+    {
+     "item": "rations",
+     "quantity": 5
+    },
+    {
+     "item": "waterskin",
+     "quantity": 1
+    },
+    {
+     "item": "rope-hempen",
+     "quantity": 1
+    },
+    {
+     "item": "scythe-soldier-key-ring",
+     "quantity": 1,
+     "custom": true,
+     "name": "Scythe soldier key ring",
+     "note": "three iron keys, one big enough for the strongbox lock"
+    },
+    {
+     "item": "rusk-s-mead-list",
+     "quantity": 1,
+     "custom": true,
+     "name": "Rusk's mead list",
+     "note": "valley farms marked MEAD; Moss underlined twice"
+    }
+   ],
+   "gold_cp": 1100,
+   "ability_modifiers": {
+    "str": -1,
+    "dex": 2,
+    "con": 2,
+    "int": 1,
+    "wis": 1,
+    "cha": 0
+   },
+   "proficiency_bonus": 2,
+   "saves": {
+    "str": {
+     "proficient": false,
+     "bonus": -1
+    },
+    "dex": {
+     "proficient": true,
+     "bonus": 4
+    },
+    "con": {
+     "proficient": false,
+     "bonus": 2
+    },
+    "int": {
+     "proficient": true,
+     "bonus": 3
+    },
+    "wis": {
+     "proficient": false,
+     "bonus": 1
+    },
+    "cha": {
+     "proficient": false,
+     "bonus": 0
+    }
+   },
+   "skills": {
+    "acrobatics": {
+     "proficient": true,
+     "expertise": false,
+     "bonus": 4
+    },
+    "animal-handling": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "arcana": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "athletics": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": -1
+    },
+    "deception": {
+     "proficient": true,
+     "expertise": false,
+     "bonus": 2
+    },
+    "history": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "insight": {
+     "proficient": true,
+     "expertise": false,
+     "bonus": 3
+    },
+    "intimidation": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 0
+    },
+    "investigation": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "medicine": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "nature": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "perception": {
+     "proficient": true,
+     "expertise": true,
+     "bonus": 5
+    },
+    "performance": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 0
+    },
+    "persuasion": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 0
+    },
+    "religion": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "sleight-of-hand": {
+     "proficient": true,
+     "expertise": false,
+     "bonus": 4
+    },
+    "stealth": {
+     "proficient": true,
+     "expertise": true,
+     "bonus": 6
+    },
+    "survival": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    }
+   },
+   "passive_perception": 15,
+   "ac": 13,
+   "stealth_disadvantage": false,
+   "attacks": {
+    "unarmed": {
+     "attack_bonus": 1,
+     "damage_expr": "1",
+     "damage_type": "bludgeoning",
+     "ability": "str",
+     "proficient": true
+    },
+    "rapier": {
+     "attack_bonus": 4,
+     "damage_expr": "1d8+2",
+     "damage_type": "piercing",
+     "ability": "dex",
+     "proficient": true,
+     "properties": [
+      "finesse"
+     ]
+    },
+    "shortbow": {
+     "attack_bonus": 4,
+     "damage_expr": "1d6+2",
+     "damage_type": "piercing",
+     "ability": "dex",
+     "proficient": true,
+     "properties": [
+      "ranged",
+      "ammunition",
+      "two-handed"
+     ]
+    },
+    "dagger": {
+     "attack_bonus": 4,
+     "damage_expr": "1d4+2",
+     "damage_type": "piercing",
+     "ability": "dex",
+     "proficient": true,
+     "properties": [
+      "finesse",
+      "light",
+      "thrown"
+     ]
+    }
+   }
+  },
+  "tam-moss": {
+   "id": "tam-moss",
+   "name": "Tam Moss",
+   "class": "fighter",
+   "level": 1,
+   "xp": 0,
+   "background": "",
+   "bond": "",
+   "flaw": "",
+   "abilities": {
+    "str": 15,
+    "dex": 13,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 10
+   },
+   "skill_proficiencies": [
+    "athletics",
+    "perception",
+    "intimidation",
+    "survival"
+   ],
+   "expertise": [],
+   "fighting_style": "defense",
+   "features": [
+    "fighting-style",
+    "second-wind"
+   ],
+   "pending_asi": 0,
+   "pending_spell_picks": 0,
+   "pending_cantrip_picks": 0,
+   "hp": {
+    "current": 12,
+    "max": 12,
+    "temp": 0
+   },
+   "hit_dice": {
+    "die": "d10",
+    "max": 1,
+    "remaining": 1
+   },
+   "life_state": "alive",
+   "death_saves": {
+    "successes": 0,
+    "failures": 0
+   },
+   "grit_used_since_long_rest": false,
+   "conditions": [],
+   "spellcasting": null,
+   "equipped": {
+    "armor": "chain-mail",
+    "shield": "shield",
+    "weapons": [
+     "longsword",
+     "light-crossbow"
+    ]
+   },
+   "inventory": [
+    {
+     "item": "chain-mail",
+     "quantity": 1
+    },
+    {
+     "item": "shield",
+     "quantity": 1
+    },
+    {
+     "item": "longsword",
+     "quantity": 1
+    },
+    {
+     "item": "light-crossbow",
+     "quantity": 1
+    },
+    {
+     "item": "crossbow-bolts-20",
+     "quantity": 1
+    },
+    {
+     "item": "backpack",
+     "quantity": 1
+    },
+    {
+     "item": "crowbar",
+     "quantity": 1
+    },
+    {
+     "item": "tinderbox",
+     "quantity": 1
+    },
+    {
+     "item": "torch",
+     "quantity": 10
+    },
+    {
+     "item": "rations",
+     "quantity": 10
+    },
+    {
+     "item": "waterskin",
+     "quantity": 1
+    },
+    {
+     "item": "rope-hempen",
+     "quantity": 1
+    }
+   ],
+   "gold_cp": 1600,
+   "ability_modifiers": {
+    "str": 2,
+    "dex": 1,
+    "con": 2,
+    "int": -1,
+    "wis": 1,
+    "cha": 0
+   },
+   "proficiency_bonus": 2,
+   "saves": {
+    "str": {
+     "proficient": true,
+     "bonus": 4
+    },
+    "dex": {
+     "proficient": false,
+     "bonus": 1
+    },
+    "con": {
+     "proficient": true,
+     "bonus": 4
+    },
+    "int": {
+     "proficient": false,
+     "bonus": -1
+    },
+    "wis": {
+     "proficient": false,
+     "bonus": 1
+    },
+    "cha": {
+     "proficient": false,
+     "bonus": 0
+    }
+   },
+   "skills": {
+    "acrobatics": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "animal-handling": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "arcana": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": -1
+    },
+    "athletics": {
+     "proficient": true,
+     "expertise": false,
+     "bonus": 4
+    },
+    "deception": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 0
+    },
+    "history": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": -1
+    },
+    "insight": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "intimidation": {
+     "proficient": true,
+     "expertise": false,
+     "bonus": 2
+    },
+    "investigation": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": -1
+    },
+    "medicine": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "nature": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": -1
+    },
+    "perception": {
+     "proficient": true,
+     "expertise": false,
+     "bonus": 3
+    },
+    "performance": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 0
+    },
+    "persuasion": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 0
+    },
+    "religion": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": -1
+    },
+    "sleight-of-hand": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "stealth": {
+     "proficient": false,
+     "expertise": false,
+     "bonus": 1
+    },
+    "survival": {
+     "proficient": true,
+     "expertise": false,
+     "bonus": 3
+    }
+   },
+   "passive_perception": 13,
+   "ac": 19,
+   "stealth_disadvantage": true,
+   "attacks": {
+    "unarmed": {
+     "attack_bonus": 4,
+     "damage_expr": "3",
+     "damage_type": "bludgeoning",
+     "ability": "str",
+     "proficient": true
+    },
+    "longsword": {
+     "attack_bonus": 4,
+     "damage_expr": "1d8+2",
+     "damage_type": "slashing",
+     "ability": "str",
+     "proficient": true,
+     "properties": [
+      "versatile"
+     ]
+    },
+    "light-crossbow": {
+     "attack_bonus": 3,
+     "damage_expr": "1d8+1",
+     "damage_type": "piercing",
+     "ability": "dex",
+     "proficient": true,
+     "properties": [
+      "ranged",
+      "ammunition",
+      "loading",
+      "two-handed"
+     ]
+    }
+   }
+  }
+ },
+ "secret_trackers": {
+  "Y29uanVuY3Rpb24": 48
+ },
+ "trackers": {
+  "tam-second-wind": 1
+ },
+ "last_encounter_paid": "2dd3efd7e92146879fa25bb76b09adee"
+}

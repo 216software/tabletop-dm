@@ -1,0 +1,19 @@
+# Journal
+
+## 2026-10-24, session 1
+
+- Broadscale market scales, market day. Corra and Tam brought Granny Moss's barley. Brother Severin, the new priest, doubled the rent, banned dealing with the elves and ordered the dead buried. Twenty soldiers of the Scythe Company came with him.
+- Still at the scales. Severin saw through Corra's false name (Wenna) and asked Granny to call on him. Pellow took a third of the barley and spoke of a dream of a smiling stranger. Corra stole a soldier's key ring; the rest of the barley sold for 6 gp (Tam holds it). Captain Rusk held the square, and Corra slipped out into the alley.
+- The north lane, by the mule cart. Corra opened the rent strongbox with the stolen key and took a list of farms marked "MEAD", with Moss underlined twice. The escort soldier fought her; Tam came running and battered him half senseless. More soldiers are coming round the corner, and the strongbox lies open.
+
+Session summary: Market day in Broadscale went bad. Brother Severin, the new priest, doubled the church's rent, banned dealing with the elves, ordered the dead buried, and brought the Scythe Company under Captain Rusk. Severin took an interest in the Moss cart and in Corra, saw through her false name, and asked Granny Moss to call on him at the chapel. Master Pellow took a third of the barley and admitted he dreams every night of a smiling stranger who thanks him for every coin. Corra stole a soldier's keys, slipped out of the held square, and opened the rent strongbox on the mule cart, finding a list of mead-leaving farms with Moss marked. A soldier recognised Tam from the elf woods. The session stops in the middle of the fight on the north lane: the escort is beaten and backing off, at least four more soldiers are coming, and Corra must decide at once what to do. Unresolved: the open strongbox, the mead list, what Rusk means to do with it, and what Severin wants with Granny.
+
+## 2026-10-24, session 2
+
+- The north lane, resolved. Corra scared the wounded escort into dropping his spear and slipping away, took a purse (1 gp) from the strongbox, and sent the cart's mule charging at the Scythe soldiers. A grey-haired sergeant did not scatter. Corra and Tam fled over the pie stall roofs.
+- Pellow's counting house, back of the pie stalls. Ottilie Pellow hid Corra and Tam from the Scythe sergeant's whistle and wanted to know what Corra took from the strongbox.
+- The coal hatch and the grain lane, then the Moss track up the valley. Corra and Tam left Ottilie at the counting house as a soldier knocked at the front door, and went up the track to Granny's farm.
+- Granny Moss's kitchen. Corra told Granny about the rent, the trap in the lower field and Tam's elf friend. Tam stayed in the ditch above the field to keep watch.
+- The lower field, dusk. Corra crept up the hedge and tied Granny's black ribbon, three knots, on the third stick, unseen by the three soldiers and their dogs. At the tree line a small figure stopped and looked at it.
+
+Session summary: Corra scared the wounded escort off, spooked a mule into the Scythe soldiers and fled over the pie stall roofs with Tam. Ottilie Pellow hid them in her father's counting house, traded what she knew (Rusk's clerk has taken seized mead, rope and iron staples) for a look at the mead list, and now owes Corra a favour: Corra opened a locked cabinet there and has promised to keep what she found to herself. Up at the farm, Tam confessed his elf friend Willow, and Granny Moss gave Corra a black ribbon that says "the field is shut" in the language of the ribbons on the sticks. At dusk Corra tied it to the third stick in the lower field, with three soldiers and two dogs a few paces away. Willow has come to the tree line early, and a soldier has heard something. Unresolved: whether the soldiers find Corra, whether Willow reads the ribbon and stays away, what Granny is not saying, and what Severin wants with Granny.

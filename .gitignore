@@ -6,8 +6,16 @@ __pycache__/
 # Build output
 dist/
 
-# Playtest campaigns and transcripts. They hold spoilers (PRD section 13)
-playtests/
+# Playtests are tracked, except the spoiler files (PRD section 13):
+# secrets, transcripts, logs, metaplots, seeds, and the skill copy.
+playtests/**/dm-secrets.md
+playtests/**/transcript*.md
+playtests/**/log.jsonl
+playtests/**/metaplot.md
+playtests/**/seeds/*
+!playtests/**/seeds/teasers.md
+playtests/**/skill/
+playtests/**/*.swp
 
 # Tools and OS
 .playwright-mcp/
