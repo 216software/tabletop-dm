@@ -2,6 +2,8 @@
 
 A text-only, fifth-edition-compatible tabletop game that runs as a Claude skill. The session model is the Dungeon Master. `skills/tabletop-dm/scripts/dm.py` owns every number. Spec: `PRD.md`. Design: `docs/ARCHITECTURE.md`. Decision history: `GRILL.md`.
 
+**Resuming work:** read `TODO.md` first. It lists what is done and what is next, and it is the place to record progress.
+
 ## THE SPOILER WALL (read this first)
 
 Brad plays this game. He must not be spoiled.
