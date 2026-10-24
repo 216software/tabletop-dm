@@ -9,7 +9,7 @@ class TestVersionCommand(DmTestCase):
         self.assertEqual(code, 0, out)
         self.assertEqual(out["command"], "version")
         self.assertEqual(out["data"], {"classes": 3, "spells": 8, "monsters": 3, "equipment": 8})
-        self.assertEqual(out["seeds"], 2)
+        self.assertEqual(out["seeds"], 3)
         self.assertIn("python_version", out)
 
     def test_version_refuses_when_a_data_file_is_missing(self):

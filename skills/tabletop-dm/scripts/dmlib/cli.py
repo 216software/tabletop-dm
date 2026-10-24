@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any, Callable, Dict, List
 
 from . import (cmd_character, cmd_encounter, cmd_log, cmd_lookup, cmd_play, cmd_roll, cmd_seed, cmd_setup, cmd_sketch,
-               data, io_campaign)
+               cmd_world, data, io_campaign)
 from .errors import DmError, error_envelope, success_envelope
 
 Handler = Callable[[argparse.Namespace, Path, random.Random], Dict[str, Any]]
@@ -50,6 +50,8 @@ HANDLERS = {
     "track": cmd_play.track,
     "beat": cmd_log.beat,
     "recent": cmd_log.recent,
+    "world list": cmd_world.world_list,
+    "world choose": cmd_world.world_choose,
     "seed list": cmd_seed.seed_list,
     "seed choose": cmd_seed.seed_choose,
     "seed pick": cmd_seed.seed_pick,
@@ -246,6 +248,11 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--text", required=True)
     p = _leaf(sub, "recent", "recent")
     p.add_argument("--n", type=int, default=cmd_log.DEFAULT_RECENT)
+
+    world = _group(sub, "world")
+    _leaf(world, "list", "world list")
+    p = _leaf(world, "choose", "world choose")
+    p.add_argument("name")
 
     seed = _group(sub, "seed")
     _leaf(seed, "list", "seed list")

@@ -6,7 +6,7 @@ A text-only, fifth-edition-compatible tabletop game that runs as a Claude skill.
 
 Brad plays this game. He must not be spoiled.
 
-- **Never quote, summarise, or hint at the contents of `skills/tabletop-dm/world/metaplot.md` or any `skills/tabletop-dm/seeds/<name>.md` file to Brad**, unless he asks to open them. `world/bible.md` and `seeds/teasers.md` are player-safe.
+- **Never quote, summarise, or hint at the contents of any world's `metaplot.md` or `seeds/<name>.md` file (`skills/tabletop-dm/worlds/<world>/...`) to Brad**, unless he asks to open them. Each world's `bible.md`, `world.json` and `seeds/teasers.md` are player-safe.
 - The wall covers derived material too: the `dm-secrets.md` of any test campaign, playtest transcripts, auditor reports, and diffs of the secret files. Reports to Brad give verdicts and rule violations with no plot content.
 - Commit messages for the secret files are generic ("add seed 3"). Do not show Brad a diff of a secret file.
 - Playtest campaigns and transcripts go in the gitignored `playtests/` folder, or in the session scratchpad.
@@ -26,6 +26,7 @@ Brad plays this game. He must not be spoiled.
 - Tests run against a tiny fixture skill root in `tests/fixtures/skill_root/`. `tests/test_data_real.py` checks the real data.
 - A new command needs: a handler in `dmlib/cmd_*.py`, an entry in `cli.HANDLERS` and `build_parser`, tests, and a row in `SKILL.md` (a test fails if `SKILL.md` misses a command).
 - `SKILL.md` stays under 500 lines. Reference files are one level deep and do not link to each other. No em-dashes in skill prose.
+- Adding a world is a data change: a folder in `skills/tabletop-dm/worlds/` with a `world.json`. See `docs/WORLDS.md`.
 - Adding a class, spell, monster or item is a data change in `skills/tabletop-dm/data/`, with no code change. SRD 5.1 content only, and no Wizards product identity (the ban list is in `tests/test_data_real.py`).
 - Mutation checks must run Python with `-B` and clear `__pycache__`, or a restored file reuses the mutated bytecode.
 

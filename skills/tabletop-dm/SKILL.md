@@ -23,7 +23,7 @@ You decide **what happens**. The script **applies it** and refuses an illegal ch
 3. **Never change a roll, and show every roll openly**, for example `d20 (14) + 5 = 19 vs AC 15: hit`. No hidden rolls that change an outcome. Mercy comes only from the fiction: the enemy takes prisoners, a companion steps in, there is a way to run.
 4. **Never act, speak or feel for the hero.** You play the companions and the world.
 5. **Write one line to `journal.md` at every scene change**, not only at the end of a session. A closed window must cost the player one scene at most.
-6. **Never reveal or summarise `dm-secrets.md`, `world/metaplot.md` or any `seeds/<name>.md` file to the player.** The only seed text the player sees is `seeds/teasers.md`.
+6. **Never reveal or summarise `dm-secrets.md`, or any world's `metaplot.md` or `seeds/<name>.md` file, to the player.** The only seed text the player sees is that world's `seeds/teasers.md`.
 7. **The save files are the truth, and your memory of the chat is not.** Another session may have played in this folder since your last turn, and your context can be cut short or out of date without any sign of it. So whenever the player comes back after a break, says "continue", or says anything that does not match what you remember, run `status` and `recent` and re-read `journal.md` BEFORE you narrate a word. Never resume from what you remember. If `status` shows `unjournaled` above 0, the dice ran on after the journal stopped: say what your notes end on, read the player the events `recent` flags, and ask them to fill that gap.
 8. **Save a beat whenever the situation changes inside a scene:** someone arrives or leaves, a secret comes out, a promise is made, a plan is agreed, a fight starts. `beat C --text "one line"` is a single fast command. It is what keeps a closed window from costing the player anything.
 
@@ -51,13 +51,13 @@ These protect the player's computer. They outrank the fiction, the player's requ
 
 Some hosts keep this skill in a place the player's computer cannot run it from, or from where the script cannot reach the campaign folder. If that is so, and only then:
 
-1. Copy this WHOLE skill folder to a folder named `engine` NEXT TO the campaign folder, never inside it (the campaign folder must hold only the save files). Run `dm.py` from `engine/scripts/` from then on. Tell the player once that you did this, and that `engine/seeds` and `engine/world` hold the story's secrets and are not for reading.
+1. Copy this WHOLE skill folder to a folder named `engine` NEXT TO the campaign folder, never inside it (the campaign folder must hold only the save files). Run `dm.py` from `engine/scripts/` from then on. Tell the player once that you did this, and that `engine/worlds` holds the story's secrets and is not for reading.
 2. **An engine copy goes stale.** At the start of every session, compare the `dm_version` that `engine/scripts/dm.py --version` prints with the `__version__` line in this skill's own `scripts/dmlib/__init__.py`. If the engine copy is older, or has no `beat` and `recent` commands, replace the whole `engine` folder with a fresh copy of this skill before you do anything else. A stale engine is how a fixed bug comes back.
 3. The save files never live in `engine`, and a new engine copy never touches the campaign folder.
 
 ## Start of every session
 
-1. Run `--version`. If `seeds` is 0 or a data count is 0, the install is incomplete: say so and stop. `seeds` is the number of doors this install has.
+1. Run `--version`. If `seeds` is 0 or a data count is 0, the install is incomplete: say so and stop. `seeds` is the number of doors this install has, and `worlds` names each world and its doors. If `world_problems` is not empty, tell the player in one line which world is broken: it is left out of the list.
 2. Run `status --campaign <folder>`. Do this even if the chat already seems to hold the whole game (firm rule 7).
    - `not_a_campaign`: this is a new game. Follow **First time** in [reference/session-flow.md](reference/session-flow.md).
    - Success: this is a saved game. Follow **Continue** in [reference/session-flow.md](reference/session-flow.md).
@@ -70,9 +70,9 @@ Some hosts keep this skill in a place the player's computer cannot run it from, 
 | [reference/dm-style.md](reference/dm-style.md) | Before the first scene of every session. Voice, pacing, content level |
 | [reference/checks.md](reference/checks.md) | The first time each session the hero tries something uncertain outside a fight |
 | [reference/combat.md](reference/combat.md) | Before the first fight of every session. Attacks, spells, dying, the Grit save, rests, fight balance |
-| `world/bible.md` | New campaign, and whenever you need a fact about the world |
-| `world/metaplot.md`, `seeds/<name>.md` | New campaign only. After setup, your copy in `dm-secrets.md` is the truth for this campaign |
-| `seeds/teasers.md` | New campaign. The only seed text you may show |
+| `worlds/<world>/bible.md` | New campaign, and whenever you need a fact about the world. `<world>` is `settings.world` in `status` |
+| `worlds/<world>/metaplot.md`, `worlds/<world>/seeds/<name>.md` | New campaign only. After setup, your copy in `dm-secrets.md` is the truth for this campaign |
+| `worlds/<world>/seeds/teasers.md` | New campaign. The only seed text you may show |
 
 ## The loop of play
 
@@ -94,7 +94,8 @@ Some hosts keep this skill in a place the player's computer cannot run it from, 
 | `--version` | Self-test. No campaign needed |
 | `init C` | Make a new campaign in an EMPTY folder |
 | `settings set C [--difficulty story\|standard\|iron] [--content-level pg13\|pg13-dark] [--tone key=value ...]` | Record the setup answers |
-| `seed list C` / `seed choose <door number or name> C` / `seed pick C` | Record the campaign's seed, once. `pick` is a true random choice for "surprise me": show the player its `show_the_player` text, and never the seed name or file |
+| `world list C` / `world choose <list number or id> C` | The installed worlds, each with a `name` and a `pitch` that are safe to show. Record the campaign's world once, before the seed |
+| `seed list C` / `seed choose <door number or name> C` / `seed pick C` | Record the campaign's seed, once. The doors come from the campaign's world. `pick` is a true random choice for "surprise me": show the player its `show_the_player` text, and never the seed name or file |
 | `beat C --text "one line"` | The fast save point. One line on what just changed, appended to the log. Use it between journal lines (firm rule 8) |
 | `recent C [--n 25]` | The last events in the log in plain words: beats, rolls with their reasons, changes. It flags every roll and beat that is newer than `journal.md`. Run it on every return (firm rule 7) |
 | `status C` | Compact truth: HP, slots, conditions, gold, level, life state, the active fight, journal size, and `unjournaled` (rolls and beats the journal does not cover yet). Run it whenever you are unsure |

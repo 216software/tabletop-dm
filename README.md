@@ -4,9 +4,9 @@ A text-only tabletop role-playing game, compatible with fifth edition. The AI is
 
 It runs in Claude (the desktop app and Claude Code), in the ChatGPT desktop app, and in OpenAI Codex. It uses the plan you already have. There is no API key and no server.
 
-What you get: levels 1 to 5, four classes (Fighter, Rogue, Wizard, Cleric), 43 spells and 44 monsters from SRD 5.1, and five starting adventures in one shared world. Every number is saved the moment it changes, and the story at every scene, so you can stop and pick the game up days later.
+What you get: levels 1 to 5, four classes (Fighter, Rogue, Wizard, Cleric), 43 spells and 44 monsters from SRD 5.1, and a choice of worlds, each with its own starting adventures (the Senn Vale ships with five). Every number is saved the moment it changes, and the story at every scene, so you can stop and pick the game up days later.
 
-> **Want to play it unspoiled?** Do not open `skills/tabletop-dm/seeds/` or `skills/tabletop-dm/world/metaplot.md`. They hold the story's secrets. `world/bible.md` and `seeds/teasers.md` are safe to read.
+> **Want to play it unspoiled?** Do not open any world's `seeds/` folder or `metaplot.md` under `skills/tabletop-dm/worlds/`. They hold the story's secrets. Each world's `world.json`, `bible.md` and `seeds/teasers.md` are safe to read.
 
 ## Install
 
@@ -121,7 +121,8 @@ python3 build.py                                                # writes the two
 - Standard library only, Python 3.9 syntax, no network. The suite checks all three.
 - Tests come first. Every command and every life-state rule in `PRD.md` maps to a named test class (`docs/PLAN.md`).
 - `PRD.md` is the spec. `docs/ARCHITECTURE.md` is the design. `GRILL.md` is the decision history.
-- **Spoilers:** `skills/tabletop-dm/world/metaplot.md` and `skills/tabletop-dm/seeds/<name>.md` hold the story's secrets. Other players read the issues, so do not quote or summarise those files in an issue or a pull request. See `PRD.md` section 13.
+- **New worlds:** a world is one folder in `skills/tabletop-dm/worlds/`. See `docs/WORLDS.md`.
+- **Spoilers:** each world's `metaplot.md` and `seeds/<name>.md` hold the story's secrets. Other players read the issues, so do not quote or summarise those files in an issue or a pull request. See `PRD.md` section 13.
 
 ## Licence
 

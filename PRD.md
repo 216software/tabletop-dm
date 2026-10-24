@@ -93,10 +93,11 @@ TextBasedDnD/                    Git repo, and also a Claude plugin
     reference/checks.md          when to call for a check, how to set a DC
     reference/dm-style.md        voice, pacing, content level
     reference/session-flow.md    first time, continue, stop, scene-change saves
-    world/bible.md
-    world/metaplot.md            DM only
-    seeds/teasers.md             player-safe
-    seeds/<name>.md              DM only, 5 files
+    worlds/<world>/world.json    name and pitch, player-safe
+    worlds/<world>/bible.md
+    worlds/<world>/metaplot.md   DM only
+    worlds/<world>/seeds/teasers.md   player-safe
+    worlds/<world>/seeds/<name>.md    DM only
     LICENSE-SRD.md               CC-BY-4.0 attribution
   tests/                         unittest files. NOT shipped inside the skill
   playtests/                     gitignored. Test campaigns and transcripts (they hold spoilers)
@@ -252,6 +253,8 @@ The architect may merge or rename commands. The table is the required **behaviou
 - Companions can die, leave, or betray. Their private motives live in `dm-secrets.md`.
 
 ## 13. World, metaplot, and seeds
+
+**Amendment (2026-10-24, 216software fork): several worlds.** Each world is a folder under `worlds/`, the player picks one at setup (`world choose`), and its doors then work as below. The Senn Vale is the first world. Authoring rules: `docs/WORLDS.md`.
 
 Brad's design. The skill ships **one original world**, the same for every player and every campaign, with **one hidden metaplot** and **5 seeds**. Each seed is a front door: a different start place and local story that leads into the same metaplot. Replay means a new door into the same larger mystery.
 

@@ -432,6 +432,10 @@ class TestCharacterPromote(PlayCase):
 
 
 class TestSeedCommands(PlayCase):
+    def setUp(self):
+        super().setUp()
+        self.ok("world", "choose", "fixture-world")
+
     def test_choose_records_the_seed(self):
         self.assertEqual(self.ok("seed", "choose", "fixture-seed-b")["seed"], "fixture-seed-b")
         self.assertEqual(self.party()["settings"]["seed"], "fixture-seed-b")

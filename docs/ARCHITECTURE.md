@@ -544,11 +544,20 @@ Success: `{"ok":true,"command":"grit","who":"kira","roll":16,"outcome":"light_co
 Refuses: `not_hero` — "grit only applies to the hero"; `not_fallen` — "kira is alive, not fallen."
 Log: `"roll"` line ONLY when a roll actually happens (already-used case appends only a `state_change`, since no die was rolled — matches "the script makes no roll"), then `state_change` on `life_state`/`hp`/`grit_used_since_long_rest`.
 
+### 24a. `world list` / `world choose <id or number>`
+`dm.py world list --campaign <dir>`
+`dm.py world choose --campaign <dir> <id or list number>`
+A world is a folder `worlds/<id>/` with a `world.json` (`name`, `pitch`), `bible.md`, `metaplot.md` and `seeds/`. A folder without `world.json` is a draft and is ignored. Worlds are listed in id order. `--version` reports `worlds` (id to door count) and `world_problems` (a broken manifest, or no seeds).
+Success: `{"ok":true,"command":"world_choose","world":"fixture-world","name":"Fixture World","seeds":2,"bible_file":"...","teasers_file":"..."}`
+Refuses: `world_unknown`; `no_worlds_found`; `world_already_set`.
+Log: `state_change` on `settings.world`. Format 2 added `settings.world`; the v1 to v2 migration sets it to `senn-vale` for a campaign that had a seed, and null otherwise.
+
 ### 24. `seed choose <name>` / `seed pick`
 `dm.py seed choose --campaign <dir> <name>`
 `dm.py seed pick --campaign <dir>`
 Success: `{"ok":true,"command":"seed_choose","seed":"fixture-seed-a"}`
-Refuses: `seed_unknown`; `no_seeds_found`; `seed_already_set` — "this campaign already chose fixture-seed-a."
+Refuses: `seed_unknown`; `world_not_chosen` (several worlds installed and none chosen); `world_unknown`; `seed_already_set` — "this campaign already chose fixture-seed-a."
+The seeds come from the campaign's world. With no world chosen and exactly one installed, `seed choose` and `seed pick` record that world in the same write. Success also carries `world`, `metaplot_file` and `bible_file`.
 Log: `seed pick` appends a `"roll"` line (the random-index roll) then `state_change`; `seed choose` appends only `state_change` (no die rolled — a player pick isn't a random event).
 
 ### 25. `character retire`
@@ -614,9 +623,10 @@ tests/
       data/spells.json       3 spells
       data/monsters.json     3 monsters ("fixture-goblin", "fixture-wolf", "fixture-brute")
       data/equipment.json    5 items
-      seeds/fixture-seed-a.md   "FIXTURE SEED A. Placeholder text for tests. Not real content."
-      seeds/fixture-seed-b.md   "FIXTURE SEED B. Placeholder text for tests. Not real content."
-      seeds/teasers.md          one placeholder line per fixture seed
+      worlds/fixture-world/        world.json, placeholder bible.md and metaplot.md,
+                                   seeds/fixture-seed-a.md, seeds/fixture-seed-b.md, seeds/teasers.md
+      worlds/fixture-world-two/    the same shape, with one seed (fixture-seed-c)
+      worlds/draft-world/          no world.json: proves a draft is ignored
   test_errors.py
   test_rules_tables.py
   test_dice.py

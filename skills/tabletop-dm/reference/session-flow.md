@@ -2,8 +2,8 @@
 
 ## Contents
 
-- First time: the six setup steps
-- The format of seeds/teasers.md
+- First time: the seven setup steps
+- The format of a world's seeds/teasers.md
 - Character creation
 - Companions
 - The opening scene
@@ -15,13 +15,15 @@
 
 `C` stands for `--campaign <folder>`.
 
-## First time: the six setup steps
+## First time: the seven setup steps
 
 Do these in order. Keep it friendly and quick: the player came to play, not to fill in forms.
 
 **Step 1. Self-test and init.** Run `--version`, then `init C`. If `init` is refused with `write_guard_failed`, the folder is not empty. Ask the player to make a new empty subfolder, open it, and say "let's play" again. Do not make the folder yourself.
 
-**Step 2. Four setup questions, then `settings set`.** Ask them together, in one short message. State each default, and say the player can answer "defaults" to take all four:
+**Step 2. The world.** Run `world list C`. Show the player every world, numbered 1, 2, 3 and so on in the order the list gives: its `name` and its `pitch`, and nothing else. The player picks one, by number or by name: `world choose 2 C`. If only one world is installed, still show it, in one line, so the player knows where the game is set, and record it with `world choose 1 C`. The world cannot change later in this campaign: a different world means a new campaign folder. Then read the `bible_file` that `world choose` returns, so that your setup questions and pitches fit the world.
+
+**Step 3. Four setup questions, then `settings set`.** Ask them together, in one short message. State each default, and say the player can answer "defaults" to take all four:
 
 | Question | Choices | Default | Recorded as |
 |---|---|---|---|
@@ -37,23 +39,23 @@ The `--tone` values are free text for you to read back later. Keep each one shor
 Record the answers in one command:
 `settings set C --difficulty standard --tone genre=grim --tone balance=talk --tone length=campaign`
 
-**Step 3. The doors.** Read `seeds/teasers.md` (its format is below). Show the player every teaser, numbered 1, 2, 3 and so on: show the teaser text only, and never the seed's file name. Say that every door leads into the same larger world, so a later campaign can take a different door. The player picks one, or says "surprise me".
+**Step 4. The doors.** Read the `teasers_file` that `world choose` returned (its format is below). Show the player every teaser, numbered 1, 2, 3 and so on: show the teaser text only, and never the seed's file name. Say that every door leads into the same larger world, so a later campaign can take a different door. The player picks one, or says "surprise me".
 - A pick: `seed choose 3 C` (the door number works, and so does the name).
 - Surprise me: `seed pick C`. Show the player the `show_the_player` text from the output ("d5 (3): door 3"), and nothing else from it.
 
-**Step 4. Prepare in secret.** Read `world/bible.md`, `world/metaplot.md`, and the chosen `seeds/<name>.md`. Then write `dm-secrets.md`:
+**Step 5. Prepare in secret.** Read the `metaplot_file` and the `seed_file` that the `seed` command returned (both are in the campaign's world folder). Then write `dm-secrets.md`:
 - Under `## Seed`: copy the whole seed file.
 - Start the seed's deadline as a SECRET counter, with the number the seed gives: `track C --name "<what the deadline is>" --set N --secret`. The name of a deadline is a spoiler, and `--secret` keeps it out of `status` and out of plain sight in `party.json`.
 - Under `## Campaign plan`: 8 to 12 lines for THIS campaign, shaped by the tone answers. The local villain's next three moves if nobody stops them. Three scenes you expect. Which metaplot revelations this door can reach, and the clue that points to each. What the villain does between sessions.
-- Under `## Companion motives`: leave empty until step 5.
+- Under `## Companion motives`: leave empty until step 6.
 
 Say nothing about this file to the player. From now on, the copy in `dm-secrets.md` is the truth for this campaign, even if the skill's seed files change later.
 
-**Step 5. Character creation and companions.** See the sections below.
+**Step 6. Character creation and companions.** See the sections below.
 
-**Step 6. The opening scene.** See below. Then write the first journal line.
+**Step 7. The opening scene.** See below. Then write the first journal line.
 
-## The format of seeds/teasers.md
+## The format of a world's seeds/teasers.md
 
 One line for each door: `<seed file name without .md>: <the teaser sentence>`. For example `the-mill: A mill town where the goblins steal only grain.` The part before the colon is what you pass to `seed choose`. The part after the colon is the only seed text a player may see.
 
@@ -98,7 +100,7 @@ Start in motion, at the seed's start place, with a problem already arriving. Say
 Do all of this even if the chat already seems to hold the whole game. Another session may have played in this folder, and a chat can lose its tail without a sign. **The files are the truth. Your memory of the chat is not.**
 
 1. Run `--version`, then `status C`, then `recent C`.
-2. Read `journal.md`, `world.md` and `dm-secrets.md`. Read the DM style reference that SKILL.md links to before the first scene.
+2. Read `journal.md`, `world.md` and `dm-secrets.md`. Read the DM style reference that SKILL.md links to before the first scene. The campaign's world is `settings.world` in `status`, and its common knowledge is in that world's `bible.md`.
 3. **Find the true last moment.** It is the latest of: the last journal line, the last beat, and the last roll in `recent`. If `status` shows `unjournaled` above 0, play ran on after the journal stopped (the last session ended without a Stop). Do not guess what happened. Tell the player where your notes end, read them the flagged events ("after that the log shows a failed Stealth check by Merrin"), and ask them to tell you the rest in a line or two. Then write that into `journal.md` first, before anything else.
 4. If `status` shows an active fight, the session stopped in the middle of it. Read the last journal lines, and resume the fight on the turn that `status` reports.
 5. Give a recap of three or four sentences, **in the fiction** ("Previously..."), and end it on the situation the hero is in right now.

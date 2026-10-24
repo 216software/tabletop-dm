@@ -38,15 +38,19 @@ class TestDomainSpellsAreAlwaysPrepared(RealDataCase):
 
 
 class TestSeedPickGivesSomethingSafeToShow(RealDataCase):
+    def setUp(self):
+        super().setUp()
+        self.ok("world", "choose", "senn-vale")
+
     def test_pick_returns_the_roll_and_the_door_number_in_teaser_order(self):
         out = self.ok("seed", "pick", rng=ScriptedRng([3]))
-        lines = [ln for ln in (REAL_SKILL_ROOT / "seeds" / "teasers.md").read_text().splitlines() if ln.strip()]
+        lines = [ln for ln in (REAL_SKILL_ROOT / "worlds" / "senn-vale" / "seeds" / "teasers.md").read_text().splitlines() if ln.strip()]
         self.assertEqual((out["roll"], out["doors"], out["door"]), (3, 5, 3))
         self.assertEqual(out["seed"], lines[2].split(":")[0])
         self.assertIn("door 3", out["show_the_player"])
 
     def test_choose_accepts_a_door_number(self):
-        lines = [ln for ln in (REAL_SKILL_ROOT / "seeds" / "teasers.md").read_text().splitlines() if ln.strip()]
+        lines = [ln for ln in (REAL_SKILL_ROOT / "worlds" / "senn-vale" / "seeds" / "teasers.md").read_text().splitlines() if ln.strip()]
         self.assertEqual(self.ok("seed", "choose", "2")["seed"], lines[1].split(":")[0])
 
 

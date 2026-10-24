@@ -1,12 +1,17 @@
 """Loads the rules data that ships in the skill folder. Read-only."""
 import difflib
 import json
+import re
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Tuple
 
 from .errors import DmError
 
 KINDS = ("classes", "spells", "monsters", "equipment")
+# One folder per world: worlds/<id>/ with world.json, bible.md, metaplot.md and seeds/.
+WORLDS_DIR = "worlds"
+WORLD_MANIFEST = "world.json"
+_WORLD_ID = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 # lookup takes the singular word.
 SINGULAR = {"class": "classes", "spell": "spells", "monster": "monsters", "equipment": "equipment"}
 
@@ -66,8 +71,50 @@ def check_party_refs(party: Dict[str, Any], records: Dict[str, Dict[str, Any]]) 
                                                        "the file." % (cid, item))
 
 
-def list_seed_names(skill_root: Path) -> List[str]:
-    folder = skill_root / "seeds"
+def list_seed_names(world_dir: Path) -> List[str]:
+    folder = world_dir / "seeds"
     if not folder.is_dir():
         return []
     return sorted(p.stem for p in folder.glob("*.md") if p.stem != "teasers")
+
+
+def _read_manifest(folder: Path) -> Dict[str, Any]:
+    """A world's world.json, checked. Raises ValueError with the reason."""
+    try:
+        manifest = json.loads((folder / WORLD_MANIFEST).read_text())
+    except (OSError, UnicodeDecodeError, ValueError) as exc:
+        raise ValueError("world.json is not valid JSON (%s)" % exc)
+    if not isinstance(manifest, dict):
+        raise ValueError("world.json must be an object")
+    for key in ("name", "pitch"):
+        if not isinstance(manifest.get(key), str) or not manifest[key].strip():
+            raise ValueError("world.json needs a '%s' of text" % key)
+    return manifest
+
+
+def list_worlds(skill_root: Path) -> Tuple[List[Dict[str, Any]], List[str]]:
+    """Every world in worlds/, in id order, and a note for each one that is broken.
+
+    A world is a folder with a world.json. A folder without one is a draft and is ignored.
+    """
+    folder = skill_root / WORLDS_DIR
+    worlds = []  # type: List[Dict[str, Any]]
+    problems = []  # type: List[str]
+    if not folder.is_dir():
+        return worlds, problems
+    for path in sorted(folder.iterdir()):
+        if not path.is_dir() or not (path / WORLD_MANIFEST).is_file():
+            continue
+        try:
+            if not _WORLD_ID.match(path.name):
+                raise ValueError("the folder name must be a lowercase slug")
+            manifest = _read_manifest(path)
+            seeds = list_seed_names(path)
+            if not seeds:
+                raise ValueError("it has no seeds/ files")
+        except ValueError as exc:
+            problems.append("%s: %s" % (path.name, exc))
+            continue
+        worlds.append({"id": path.name, "name": manifest["name"].strip(), "pitch": manifest["pitch"].strip(),
+                       "dir": path, "seeds": seeds})
+    return worlds, problems

@@ -16,12 +16,15 @@ CONTENT_LEVELS = ("pg13", "pg13-dark")
 def version(args: argparse.Namespace, skill_root: Path, rng: random.Random) -> Dict[str, Any]:
     """The self-test the DM runs first in every session."""
     records = data.load_all(skill_root)
+    worlds, problems = data.list_worlds(skill_root)
     return {
         "dm_version": __version__,
         "python_version": platform.python_version(),
         "format_version": CURRENT_FORMAT_VERSION,
         "data": {kind: len(records[kind]) for kind in data.KINDS},
-        "seeds": len(data.list_seed_names(skill_root)),
+        "seeds": sum(len(w["seeds"]) for w in worlds),
+        "worlds": {w["id"]: len(w["seeds"]) for w in worlds},
+        "world_problems": problems,
     }
 
 
@@ -32,7 +35,7 @@ def init(args: argparse.Namespace, skill_root: Path, rng: random.Random) -> Dict
         "format": io_campaign.PARTY_FORMAT,
         "format_version": CURRENT_FORMAT_VERSION,
         "hero_id": None,
-        "settings": {"difficulty": "standard", "content_level": "pg13", "tone_answers": {}, "seed": None},
+        "settings": {"difficulty": "standard", "content_level": "pg13", "tone_answers": {}, "world": None, "seed": None},
         "characters": {},
     }
     io_campaign.save_party(campaign_dir, party)

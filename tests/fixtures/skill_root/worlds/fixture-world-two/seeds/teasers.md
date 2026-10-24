@@ -1,0 +1,1 @@
+- fixture-seed-c: placeholder teaser C.

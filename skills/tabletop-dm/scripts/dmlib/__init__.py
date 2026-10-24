@@ -3,4 +3,4 @@
 __version__ = "0.2.2"
 
 # Bump when party.json changes shape, and add a migrate_vN_to_vN+1 in io_campaign.
-CURRENT_FORMAT_VERSION = 1
+CURRENT_FORMAT_VERSION = 2

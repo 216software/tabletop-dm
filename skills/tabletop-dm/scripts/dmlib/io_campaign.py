@@ -36,7 +36,15 @@ MARKDOWN_TEMPLATES = {
 
 # format_version N -> function that returns the version N+1 shape. Migrations only
 # add fields with safe defaults. They never delete or reinterpret a number.
-MIGRATIONS = {}  # type: Dict[int, Callable[[Dict[str, Any]], Dict[str, Any]]]
+def migrate_v1_to_v2(party: Dict[str, Any]) -> Dict[str, Any]:
+    """Format 2 adds settings.world. Every format 1 campaign was played in the one world that shipped then."""
+    settings = party.get("settings")
+    if isinstance(settings, dict):            # a damaged one is left for validate_party to name
+        settings["world"] = "senn-vale" if settings.get("seed") else None
+    return party
+
+
+MIGRATIONS = {1: migrate_v1_to_v2}  # type: Dict[int, Callable[[Dict[str, Any]], Dict[str, Any]]]
 
 
 def _visible_entries(folder: Path) -> List[str]:
@@ -193,6 +201,8 @@ def validate_party(party: Dict[str, Any]) -> None:
     if party["settings"].get("difficulty") not in ("story", "standard", "iron"):
         s.fail("settings.difficulty", "story, standard or iron")
     s.is_a(party["settings"].get("tone_answers"), dict, "settings.tone_answers", "an object")
+    if party["settings"].get("world") is not None:
+        s.is_a(party["settings"]["world"], str, "settings.world", "null or a world id")
     s.is_a(party.get("characters"), dict, "characters", "an object keyed by character id")
     s.is_a(party.get("trackers", {}), dict, "trackers", "an object")
     hero = party.get("hero_id")
