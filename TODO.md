@@ -10,7 +10,7 @@ Work happens on the branch `feat/multi-world` (not pushed, not merged).
 
 - Several worlds, chosen at setup: `worlds/<id>/` inside the skill, the `world list` and `world choose` commands, and party.json format 2. Authoring rules are in `docs/WORLDS.md`.
 - The Senn Vale moved to `skills/tabletop-dm/worlds/senn-vale/`.
-- The Fneb drafts, in the top-level `worlds/fneb/`: `decisions.md`, `bible.md`, `metaplot.md`, `seeds/oasis.md`, `seeds/relic.md` and `seeds/ghoul-raids.md`.
+- The Fneb drafts, in the top-level `worlds/fneb/`: `decisions.md`, `bible.md`, `metaplot.md`, `seeds/oasis.md`, `seeds/relic.md`, `seeds/ghoul-raids.md` and `seeds/valley-farm.md`.
 - `how-to-play.md`, for installing from a local checkout and starting a game.
 
 ## Fneb: make it playable
@@ -19,7 +19,7 @@ Source notes are in `~/Documents/writing/fneb/`. Every decision so far is in `wo
 
 1. **The relic seed**, `worlds/fneb/seeds/relic.md`: drafted 2026-10-24, waiting for Matt's markup.
 2. **The ghoul-raids seed**, `worlds/fneb/seeds/ghoul-raids.md`: drafted 2026-10-24, waiting for Matt's markup. If the valley town's name, Broadscale, sticks, add it to `bible.md`.
-3. **The valley-farm seed**, from the farmers section of `fneb/fneb.txt`. It is needed before shipping: without it, revelations R3 and R5 are reachable from only one door each, and the tests require two.
+3. **The valley-farm seed**, `worlds/fneb/seeds/valley-farm.md`: drafted 2026-10-24, waiting for Matt's markup. With it, every revelation is reachable from at least two of the four drafted doors.
 4. **`worlds/fneb/seeds/teasers.md`**: one player-safe sentence of 15 to 30 words per door.
 5. **`world.json`**: the name "Fneb" and a one-sentence player-safe pitch.
 6. **Credits** for Boojamon and MelancholyOcelot (Reddit), in the world folder.
