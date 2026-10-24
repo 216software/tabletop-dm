@@ -76,8 +76,8 @@ If someone else will play the world, the person who plays it should not write or
 
 ## Steps
 
-1. Make `skills/tabletop-dm/worlds/<world-id>/` with `bible.md`, `metaplot.md`, `seeds/` and the seeds, and no `world.json` yet.
-2. Write `world.json` last. The world is live from that moment.
+1. Draft the world in the repo-root `worlds/<world-id>/` folder. It is outside the skill, so the build does not ship it and the tests do not check it. Notes and decision records can live there too.
+2. When it is ready, move `bible.md`, `metaplot.md` and `seeds/` to `skills/tabletop-dm/worlds/<world-id>/`, and write `world.json` last. The world is live from that moment.
 3. Run the suite: `python3 -B -m unittest discover -s tests -p "test_*.py" -t .`
 4. Run `python3 skills/tabletop-dm/scripts/dm.py --version` and check that the world shows under `worlds` with no `world_problems`.
 5. Playtest it as `PRD.md` section 16 describes, in the gitignored `playtests/` folder.
