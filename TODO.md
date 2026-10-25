@@ -26,6 +26,14 @@ Source notes are in `~/Documents/writing/fneb/`. Every decision so far is in `wo
 - Is the port city at the end of the mountain trade road the same city as the capital? The bible draft makes them one.
 - Where does the spellbook from `ideas.txt` go? (The leprous beggar is in the oasis seed, and the prayer robe in the relic seed.)
 
+## future-trash-world (working name): next
+
+A post-apocalyptic world around Cleveland, Ohio, co-authored with Matt
+by interview. Folder: `worlds/future-trash-world/` (a draft, outside
+the skill). `decisions.md` holds every answer so far, and
+`next-questions.md` holds what to ask next. Resume the interview from
+there. `bible.md` is not written yet.
+
 ## Fneb: later
 
 - **The bandits seed**, the fifth door, from `who-let-the-unholy-out/save-the-farmers.txt`. The metaplot's door table already has its row, marked "not written yet". When it ships, drop that note and add a teaser line.
