@@ -5,7 +5,7 @@ asks one question at a time, Matt answers, Claude takes notes. This
 file is the record. `bible.md` has not been written yet. Matt asked
 to draft it later, after the open questions in `next-questions.md`.
 
-Status: interview resumed on 2026-10-25, at question 35.
+Status: interview resumed on 2026-10-28, at question 36.
 
 ## The pitch
 
@@ -370,3 +370,339 @@ the player is assigned to a team.
   in a secret file and stay out of the player-safe bible.
 
 - Open: which role is the player's, and does the player choose it?
+
+Matt's answer to question 36 (how the player gets a role):
+
+- The permit team has three player roles, and the rogue slot is
+  removed from it.
+
+  - **Fighter (security):** keeps the team safe.
+
+  - **Engineer (robotics expert):** handles the technical security
+    work the rogue was going to do: sneaking past and disabling
+    security systems. Also studies what the team finds.
+
+  - **Medic or Cleric (biological expert):** heals, and is also in
+    charge of the biological science.
+
+- So the player picks fighter, biological expert or robotics expert.
+  NPCs fill the other slots.
+
+- Open: does removing the rogue apply only to this permit team, or
+  does the rogue class stay in the world (the scavenger who slipped
+  through the cracks)? The class mapping above still lists it.
+
+- Open: are the teammates companions after the first mission?
+
+- Open: how the supervisor's rank shows, and what the first ruin
+  looks like.
+
+Matt's next answer (a break from the D&D rules):
+
+- This world leaves the Dungeons and Dragons rule set. Each player
+  has a list of skills and points to spend on improving them, so
+  people choose how to develop their characters.
+
+- A character still has an occupation, such as working security and
+  combat, but can also study robotics and biological science.
+
+- This replaces the class mapping under "Rules mapping" and the
+  three fixed roles above. Roles become occupations plus skills. The
+  question of the rogue class is no longer needed: sneaking is a
+  skill.
+
+- Engine impact: `CLAUDE.md` and `PRD.md` describe a fifth-edition
+  compatible engine, and the script owns every number. A skill-point
+  system is new engine work (character creation, advancement, checks,
+  combat). The existing classes, spells and the SRD data tests do not
+  fit it.
+
+- Decided (question 38): per-world ruleset. Each `world.json` will
+  name its ruleset, `5e` or `skills`. Senn Vale and Fneb stay on
+  fifth-edition rules, and this world uses the skill system. The
+  engine grows a second mode.
+
+- Decided (question 39): a skill check is a d20 roll plus the skill
+  rank, compared to a difficulty number. The script owns the numbers.
+
+- Decided (question 40): the starting skill list is these twelve.
+
+  - Security and combat: Firearms, Melee, Tactics.
+
+  - Robotics: Robotics (repair and revive), Hacking (disable or
+    defeat security systems, and the unauthorized work on robot AI),
+    Salvage (spot and strip valuable parts).
+
+  - Biological science: Medicine, Biology (mutants, giant insects,
+    contamination, fungus).
+
+  - General: Stealth, Survival, Streetwise, Persuasion.
+
+- Advancement (Matt): a skill rises by formal training (such as a
+  military program for weapons), by being taught by someone, or by
+  trial and error through experience. Hacking, for example, can rise
+  through practice and through reading technical manuals.
+
+- Open: how an occupation works with skills. Recommended: an
+  occupation gives a starting bundle of ranks and a few perks, and
+  its skills are cheaper to raise. Matt has not answered this yet.
+
+- Decided (question 41): experience uses both systems. Missions
+  grant general points that the player spends on any skill. Using a
+  skill on a hard or risky check also earns marks (failures count),
+  and a practiced skill is cheaper to raise.
+
+- Proposed, not yet confirmed by Matt: study (a manual or a teacher)
+  gives fixed bonus marks for one skill up to a rank cap, and formal
+  training costs downtime and currency or debt and is the only route
+  to the top ranks. Open: do the three routes have different rank
+  caps (practice lowest, formal training highest)?
+
+- Decided (question 42): the routes have different rank caps, on a
+  placeholder scale of 0 to 10.
+
+  - Practice alone, and points spent without teaching: up to rank 4.
+
+  - Study (a manual or a teacher): up to rank 7.
+
+  - Formal training: required for ranks 8 to 10.
+
+  Study and training thus confirm the proposal above. The scale of 0
+  to 10 is still a placeholder, to check against the difficulty
+  numbers during the mechanics stage.
+
+- Decided (question 43): an occupation gives a few starting ranks
+  and one or two perks, and its skills cost less to raise. Anyone
+  can still learn any skill.
+
+- Jobs (Matt): a character applies for jobs and submits a resume,
+  and may or may not be accepted. A salvage team might need several
+  security people because of the danger.
+
+  - Skills are not spread evenly across the population. Security
+    work is the easiest to get, and the most dangerous.
+
+  - Biology engineer and robotics engineer jobs only consider people
+    with good Biology, Medicine, Robotics or Hacking skill. They
+    often also need special training, which costs money.
+
+  - Idea for the mechanics stage: each job lists minimum skills and
+    maybe a training requirement. The script checks them and rolls
+    the hiring (a resume check, perhaps Persuasion or rank).
+
+- Open: can a character change occupation? Matt's job-application
+  answer suggests yes, by being hired into a new job.
+
+- Career path (Matt's example): someone starts in security, pays for
+  training or improves Hacking by trial and error, then applies to be
+  hired as a robotics engineer. Occupation change is the reward for
+  skill growth.
+
+- Proposed for question 44, not confirmed: a job lists minimum
+  skills and any training requirement (a refusal if unmet, no roll),
+  then the hire is rolled as d20 plus Persuasion against a difficulty
+  set by openings and danger. A failed application costs days.
+
+- Decided (question 45): the permit contractor starts already hired.
+  The player picks their role at character creation. The character
+  has no field experience, only a little training.
+
+- Training costs differ by skill (Matt). Combat and stealth training
+  is cheaper. Biological engineering and robotics training is more
+  expensive.
+
+- Still open: question 44, whether the hire involves a roll after the
+  skill minimums. Matt did not answer it directly.
+
+- Decided (question 46): a tiered point pool at creation. All skills
+  start at rank 0. The player spends about 12 creation points, and
+  the occupation gives a free rank 2 in its main skill. All numbers
+  are placeholders.
+
+  - Cheap, 1 point per rank: Firearms, Melee, Tactics, Stealth,
+    Survival.
+
+  - Middle, 2 points per rank: Streetwise, Persuasion, Salvage.
+
+  - Expensive, 3 points per rank: Robotics, Hacking, Medicine,
+    Biology.
+
+  - The starting rank cap is 3.
+
+- The debt twist is added (Matt, after question 46): expensive
+  training is bought on credit, so an Engineer starts with more skill
+  and more debt.
+
+- Decided (question 47): the debt is a fixed amount by occupation
+  training, not per point.
+
+  - Youth are assessed for aptitude and may be invited to enroll in
+    training programs. They graduate or drop out, and either way they
+    owe the debt for that training. Examples: robotics engineer
+    school, security school.
+
+  - Other professions work the same way, such as builders and
+    accountants.
+
+  - Open: the consequences of dropping out, who holds the debt, and
+    what it costs per week.
+
+- Character creation is probabilistic (Matt), which changes
+  question 46. Upgrading a skill means rolling dice some number of
+  times and keeping the highest roll, perhaps. This probably replaces
+  the fixed point pool of question 46, whose tiered costs may become
+  the number of dice rolled. Not settled.
+
+- Decided (question 48, Matt): skills move to a 1 to 100 scale. Most
+  people never get above +50. The population follows a curved
+  distribution with a mean around 35 that slopes down to the right
+  (a right-skewed curve: many people near the middle, a long thin
+  tail of experts).
+
+- This supersedes the 0 to 10 scale and the rank caps of question 42
+  (practice 4, study 7, training 8 to 10), which were placeholders.
+  The three routes may keep their relative order, with caps rescaled.
+  It also supersedes the d20 check of question 39 (a +50 bonus swamps
+  a d20) and the creation dice of question 48's proposal.
+
+- Open: what the check is on a 100 scale, how creation draws a
+  starting value from the curve, and what the rank caps become.
+
+- Matt's answer after question 49: "Use starting values." Read as:
+  each skill has a starting value on the 1 to 100 scale, drawn from
+  the curve above (mean around 35). Not confirmed whether the school
+  sets the value or the draw does, so ask once more.
+
+- Training gain (Matt): each round of training typically adds +5 to
+  +10, and occasionally +0 or +15. So advancement is a small random
+  gain, not a fixed step. This replaces the idea of ranks. The
+  proposed caps by route (practice 40, study 65, formal training 66
+  to 100) are still unconfirmed.
+
+- Still open: question 49, the check on the 100 scale.
+
+- Decided (question 49): a skill check is a percentile roll-under.
+  Roll d100 and succeed if the roll is at or under the skill, as
+  adjusted by the task's difficulty. This supersedes question 39.
+
+- Decided (Matt): no route caps. A natural-born genius could have a
+  very high score in any skill from the start. This removes the caps
+  of question 42 and the proposed 40, 65 and 66 to 100. The routes
+  (practice, study, formal training) now differ in cost, speed and
+  the size of the gain, not in a ceiling.
+
+- Still open: whether the school sets a skill's starting value or the
+  draw from the curve does (the draw seems to fit the genius idea),
+  how difficulty adjusts the target, and what the gain per route is
+  (training is +5 to +10, occasionally +0 or +15).
+
+- Decided (Matt, answering question 50): the adventure starts after
+  the characters have finished school. They already carry the debt
+  for their occupation training, and their skill values are rolled
+  once, at character creation (the draw from the curve plus the
+  school gain of +5 to +10, occasionally +0 or +15). More training
+  is not the biggest part of the game.
+
+- So advancement stays small. Placeholder, unconfirmed: later
+  training gives the same gain at a cost, study gives a smaller gain,
+  practice gives +1 per full set of marks, and gains shrink as a
+  skill rises. This is a side feature for the engine, built last.
+
+- Decided (question 51): combat uses wounds, not hit points. Hits
+  cause light, serious or critical wounds, with penalties to checks,
+  and treating them uses the Medicine skill. This puts Medicine and
+  the clinics at the center.
+
+- Death is rare (Matt). A character who is badly hurt does not die.
+  They wake up in the hospital with a big bill, and perhaps a
+  contractual requirement to work off the larger debt somehow. This
+  fits and firms up the earlier assumption in "Healing", where death
+  was permanent with a leashed return: now the leashed return is the
+  normal outcome of defeat, and true death is the exception.
+
+- Open: when true death can happen (a rule, a narrative choice, or
+  never for players), what the hospital bill is sized by, and what a
+  work-off contract looks like (a mission for the clinic's
+  corporation?). The engine needs a defeat state that triggers the
+  hospital instead of removing the character.
+
+- Decided (question 52): true death is almost never. Defeat means
+  the hospital. A character dies for good only on a clear trigger:
+  the player chose a lethal risk and was warned, or the character is
+  unreachable (lost in a meltdown zone, captured by a rogue AI). The
+  DM cannot kill a character by narration alone. The script decides.
+
+- Proposed, unconfirmed: the hospital bill depends on the wound's
+  severity and how far the clinic's corporation had to go to reach
+  the character. A large bill becomes a work-off contract, one
+  mission for the clinic's corporation on its terms.
+
+## Cloning and memory transfer (idea for the bible)
+
+Matt's idea, for the world bible file.
+
+- Cloning technology exists. The clone does not inherit the training
+  of the original, so a clone is a body with no skills.
+
+- Separately, a "memory transfer" technology exists. It is dangerous
+  and imperfect. It often makes slightly different copies: the clone
+  sometimes has a different personality, and does not always have all
+  the skills and memories of the original.
+
+- Fits the skill system: a transfer could copy each skill value with
+  some loss, or add a random change, and the personality shift is a
+  story hook for the DM.
+
+- Decided (question 54): memory transfer is rare and illegal. It is
+  not how the hospital normally brings people back. Players can find
+  it, but it carries risk.
+
+- Two methods (Matt):
+
+  - **Analog transfer.** A live transfer with the original and the
+    clone in the same place. They are joined surgically for a time
+    and later disconnected, also surgically. Memory data flows
+    straight from one brain to the other by specially grown
+    biological viruses. AIs cannot corrupt it. It must be done in
+    real time, so the original has to be alive and present.
+
+  - **Digital transfer.** Asynchronous. A machine uses scanners,
+    opens the skull of the original and uses antenna- and
+    electrode-like technology to make a digital copy of the mind.
+    The data is stored and later loaded into a clone. It is much
+    worse: the clones often have much less intelligence and more
+    aggressive, antagonistic behavior. The copy can be altered, and
+    it can be hacked, so a rogue AI can corrupt it. It uses robotics
+    and altered data, so it is taboo, but the criminal world still
+    does it sometimes.
+
+- Genetic super guard dogs are made this way: a clone body loaded
+  with a digital copy that was altered to be aggressive.
+
+- Consequence for death: only a digital backup lets someone return
+  after the original is gone, because analog needs the original
+  alive. So a returning character is a degraded, hackable copy by
+  default. This ties the corruption idea under "Rules mapping" to a
+  concrete mechanism.
+
+- Still open: whether players can ever buy a digital backup, how the
+  engine represents a returned character (skills reduced at random,
+  personality shift, lost memories), and whether the lake movement,
+  the New Amish and the Moon worshippers have views on cloning.
+
+- Still open: question 53, whether the bill and work-off contract
+  fit as proposed (option 3, a contract only on a big bill, was my
+  recommendation).
+
+- Decided (question 55): a player character can come back as a
+  digital copy, as a rare plot event. A friend or enemy has a backup
+  and a criminal group loads it. It is never a service the player
+  orders from a menu. The returning character has each skill reduced
+  by a random amount, may have a shifted personality, and can be
+  hacked by a rogue AI. The engine needs a "returned" state with a
+  skill penalty, built with the hospital defeat state.
+
+- Decided (question 53): the hospital bill adds to the debt. A
+  work-off contract appears only above a threshold, so it stays rare
+  enough to feel like a plot event. Small bills only add debt.
+

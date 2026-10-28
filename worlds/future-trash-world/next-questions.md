@@ -4,8 +4,10 @@ Resume the interview here. Claude asks one question at a time, with a
 recommendation and options. Matt answers, and Claude takes notes in
 `decisions.md`. All answers so far are in `decisions.md`.
 
-Question 36 was pending when the session ended. Question 35 (the
-permit contractor) is recorded in `decisions.md`.
+Question 36 is answered (three roles: fighter, biological expert,
+robotics expert) and recorded in `decisions.md`. Its follow-ups are
+still open: companions after mission one, the rogue class elsewhere,
+the supervisor's rank markers, and the first ruin.
 
 ## Next up
 
