@@ -1,6 +1,6 @@
 # TODO
 
-Where the work stands, and what is next. Update this file as items finish. Last updated 2026-10-24.
+Where the work stands, and what is next. Update this file as items finish. Last updated 2026-10-28.
 
 Work happens on the branch `feat/multi-world` (not pushed, not merged).
 
@@ -32,7 +32,12 @@ A post-apocalyptic world around Cleveland, Ohio, co-authored with Matt
 by interview. Folder: `worlds/future-trash-world/` (a draft, outside
 the skill). `decisions.md` holds every answer so far, and
 `next-questions.md` holds what to ask next. Resume the interview from
-there (resume at question 36). `bible.md` is not written yet.
+there (resume at question 59). `bible.md` is not written yet.
+
+This world leaves the fifth-edition rules: a 1 to 100 skill system
+with d100 roll-under checks, wounds, and a hospital instead of death.
+Each `world.json` will name its ruleset (`5e` or `skills`), so the
+engine needs a second mode. The design so far is in `decisions.md`.
 
 ## Fneb: later
 

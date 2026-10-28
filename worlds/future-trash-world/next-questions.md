@@ -4,48 +4,37 @@ Resume the interview here. Claude asks one question at a time, with a
 recommendation and options. Matt answers, and Claude takes notes in
 `decisions.md`. All answers so far are in `decisions.md`.
 
-Question 36 is answered (three roles: fighter, biological expert,
-robotics expert) and recorded in `decisions.md`. Its follow-ups are
-still open: companions after mission one, the rogue class elsewhere,
-the supervisor's rank markers, and the first ruin.
+Questions 36 to 58 are answered and recorded in `decisions.md`. The
+interview paused at question 59.
 
 ## Next up
 
-0. **Q36, pending: how the player gets a role on the permit team.**
-   Recommended: the player picks any class, and the corporation
-   assigns the matching team slot (security, infiltrator, medic,
-   analyst), with NPCs filling the other slots. Alternatives: four
-   fixed roles, or slot first and then a class from a short list.
-   Also ask: are the teammates companions the player keeps after the
-   first mission, or one-mission characters? Then ask how the
-   supervisor's rank shows (badge, clothes) and what the first
-   ruin looks like. The crooked supervisor is plot, so it goes in
-   the secret files later.
+0. **Q59, pending: the believer's start (position 3).** A Warlock or
+   trash druid. Options offered: (1) a garbled Moon AI sermon to
+   answer or trace, recommended; (2) a patch of land that will not
+   heal and needs something from the ruins; (3) a trip to a city to
+   sell a community good. Ask where the game begins, what they want
+   first, and the debt hook (a debt to the community that trained
+   them). Position 2's open items: what the scavenger was caught
+   doing, who offers the deal, whether it is the position 1 team.
 
-1. **Starting positions 2 and 3.** Position 1 (the permit
-   contractor) is done. Matt said he would define two or three.
-   For each: who they are, where the game begins, and what they want
-   first. Suggested spread: one inside the system (a contractor with
-   a permit), one outside it (a scavenger who slipped through the
-   cracks), one tied to a belief (a Warlock or trash druid). Each can
-   carry the debt hook.
+1. **Hospital detail.** Defeat means the hospital and a bill (a
+   work-off contract only on a big bill). Open: how the bill is
+   sized, and how wounds heal.
 
-2. **Death and revival.** Assumed permanent, with a leashed clinic
-   return. Confirm or change.
-
-3. **The AI taboo penalty.** Assumed that it depends on who you are
+2. **The AI taboo penalty.** Assumed that it depends on who you are
    (the poor lose the machine, the wealthy have approved ones).
    Confirm. Can a patched, safe robot ever be accepted?
 
-4. **Water.** Assumed that cost rises with distance from the lake.
+3. **Water.** Assumed that cost rises with distance from the lake.
    How does a peasant in the dry interior get water, and what does it
    cost?
 
-5. **Names.** React to the placeholders listed in `decisions.md`, and
+4. **Names.** React to the placeholders listed in `decisions.md`, and
    name the Cleveland government-corporation. Name the New Amish
    faction if it is changing.
 
-6. **How far do the radicals go?** Trash druids are peaceful
+5. **How far do the radicals go?** Trash druids are peaceful
    healers, or do they also sabotage? How far do Foundry Houses go?
 
 ## Still open

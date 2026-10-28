@@ -5,7 +5,8 @@ asks one question at a time, Matt answers, Claude takes notes. This
 file is the record. `bible.md` has not been written yet. Matt asked
 to draft it later, after the open questions in `next-questions.md`.
 
-Status: interview resumed on 2026-10-28, at question 36.
+Status: interview resumed on 2026-10-28 at question 36. Paused at
+question 59 (the believer's start), same day.
 
 ## The pitch
 
@@ -705,4 +706,32 @@ Matt's idea, for the world bible file.
 - Decided (question 53): the hospital bill adds to the debt. A
   work-off contract appears only above a threshold, so it stays rare
   enough to feel like a plot event. Small bills only add debt.
+
+## Starting positions 2 and 3
+
+Decided (question 57): the two other starts fit.
+
+- **Position 2: the scavenger who slipped through the cracks.** No
+  job, no school debt and no resume. Skills are drawn from the curve
+  with no school gain, so they are rougher but owe nothing. The game
+  begins in the fence line.
+
+- **Position 3: the believer.** A Moon AI Warlock or a trash druid.
+  Their training came from their community, not a corporate school.
+  The game begins at the edge of the unregulated land.
+
+- Open for each: where exactly the game begins, what they want
+  first, and whether the debt hook applies (the scavenger might owe
+  a middleman, the believer might owe their community).
+
+- Decided (question 58): position 2 opens with a caught scavenger.
+  Troopers arrest the scavenger and offer a deal: work as an
+  unregistered guide for a permit team, or lose everything. This
+  links position 2 to position 1 early. The scavenger's debt hook is
+  the deal itself, not a school debt.
+
+- Open: what the scavenger was caught doing, which trooper or
+  corporation offers the deal, and whether the permit team is the
+  one from position 1. The deal and the team's supervisor are plot,
+  so they belong in the secret files later.
 
