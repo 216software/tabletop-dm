@@ -32,7 +32,7 @@ A post-apocalyptic world around Cleveland, Ohio, co-authored with Matt
 by interview. Folder: `worlds/future-trash-world/` (a draft, outside
 the skill). `decisions.md` holds every answer so far, and
 `next-questions.md` holds what to ask next. Resume the interview from
-there. `bible.md` is not written yet.
+there (resume at question 36). `bible.md` is not written yet.
 
 ## Fneb: later
 

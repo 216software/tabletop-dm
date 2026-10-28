@@ -4,11 +4,24 @@ Resume the interview here. Claude asks one question at a time, with a
 recommendation and options. Matt answers, and Claude takes notes in
 `decisions.md`. All answers so far are in `decisions.md`.
 
-Question 34 was pending when the session ended.
+Question 36 was pending when the session ended. Question 35 (the
+permit contractor) is recorded in `decisions.md`.
 
 ## Next up
 
-1. **Starting positions.** Matt said he would define two or three.
+0. **Q36, pending: how the player gets a role on the permit team.**
+   Recommended: the player picks any class, and the corporation
+   assigns the matching team slot (security, infiltrator, medic,
+   analyst), with NPCs filling the other slots. Alternatives: four
+   fixed roles, or slot first and then a class from a short list.
+   Also ask: are the teammates companions the player keeps after the
+   first mission, or one-mission characters? Then ask how the
+   supervisor's rank shows (badge, clothes) and what the first
+   ruin looks like. The crooked supervisor is plot, so it goes in
+   the secret files later.
+
+1. **Starting positions 2 and 3.** Position 1 (the permit
+   contractor) is done. Matt said he would define two or three.
    For each: who they are, where the game begins, and what they want
    first. Suggested spread: one inside the system (a contractor with
    a permit), one outside it (a scavenger who slipped through the

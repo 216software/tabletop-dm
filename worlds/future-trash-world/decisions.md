@@ -5,7 +5,7 @@ asks one question at a time, Matt answers, Claude takes notes. This
 file is the record. `bible.md` has not been written yet. Matt asked
 to draft it later, after the open questions in `next-questions.md`.
 
-Status: interview paused on 2026-10-25, after question 34.
+Status: interview resumed on 2026-10-25, at question 35.
 
 ## The pitch
 
@@ -343,3 +343,30 @@ All placeholders. Matt has not reacted to them.
 
 - Keepers was a suggested name for the lake movement. Matt's own
   term "trash druids" is better for the radicals.
+
+## Starting position 1: the permit contractor
+
+Matt's description (question 35). This is the first mission, where
+the player is assigned to a team.
+
+- A permit team is sent into the ruins by a corporation. Typical
+  roles:
+
+  - Security: a fighter.
+
+  - Infiltrator: a rogue, who sneaks through security systems and
+    disables them.
+
+  - Medic: maybe.
+
+  - Analyst: maybe a wizard type (Engineer), who studies what the
+    team finds.
+
+- An NPC supervisor of higher rank is on the team and gives orders.
+
+- Idea: the supervisor is crooked. The supervisor smuggles treasure
+  out instead of turning it in, then frames the player or another
+  team member for the smuggling. This is plot, so the details belong
+  in a secret file and stay out of the player-safe bible.
+
+- Open: which role is the player's, and does the player choose it?
