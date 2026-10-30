@@ -735,3 +735,586 @@ Decided (question 57): the two other starts fit.
   one from position 1. The deal and the team's supervisor are plot,
   so they belong in the secret files later.
 
+
+## Design rule: one world, shared events (Matt, answering question 59)
+
+- Put all the starting characters in the same world, seeing the same
+  events through different eyes. Fewer events and background elements,
+  each one more detailed. This is the rule for every later question:
+  prefer reusing an existing event, place or faction over adding a
+  new one.
+
+## The shared inciting event: the garbled Moon sermon
+
+- Decided (question 59, Matt): a garbled Moon sermon is the event all
+  three starts share.
+
+  - Some corporation has always listened to the public sermons for
+    clues about good salvage opportunities.
+
+  - It sold that information to a salvage corporation. That salvage
+    corporation gets the permits and hires the permit team (position
+    1, the permit contractor).
+
+  - So position 1 is hired because of the sermon, position 2 (the
+    scavenger) is pulled in as an unregistered guide, and position 3
+    (the believer) hears the same sermon as scripture, as a message
+    to answer, or as a trap.
+
+- This replaces the three options offered for question 59. The
+  believer's start is the sermon itself, seen as a believer would.
+
+- Open: what the sermon actually says and whether anyone meant it
+  (plot, so it belongs in a secret file), which corporation listens,
+  which one buys, whether the believers know they are overheard, and
+  the believer's debt hook (an obligation to the community).
+
+## What the sermons say (Matt, answering question 60)
+
+- Decided (question 60): the Moon AIs broadcast a batch of many
+  different messages, each a clue about something in some ruin. The
+  something could be life-changing technology, energy or other
+  things.
+
+  - Some messages are plainly false. Some have been partly tampered
+    with. Some are mostly pristine.
+
+  - Nobody on Earth can tell which is which, and everybody knows
+    that. This is common knowledge, not a secret.
+
+- The truth about what is in any ruin is not fixed. The DM decides
+  later, to suit the story and the player, for example by putting
+  something in the ruin that advances a subplot already running. So
+  the secret files give the DM a menu of possible ruin contents, not
+  one answer per ruin. Engine and seed impact: a seed lists options
+  and the DM picks one in play.
+
+- The usual message to the followers (Matt): a danger is growing in
+  the ruins, and the faithful should deal with it. Examples:
+
+  - Ancient technology, such as a nuclear power plant, is about to
+    melt down and do damage.
+
+  - A toxic waste dump has started leaking and is creating mutant
+    monsters. The followers should clean it up as a sign of their
+    faith.
+
+  This turns the Moon cult's duty into cleanup and prevention, which
+  overlaps with the trash druids' work and with the meltdown legends
+  under "Food, power and money".
+
+## Trash druids and the Moon AIs
+
+- Matt: trash druids have sometimes teamed up with Moon AI followers,
+  and there is an idea to unify the two somehow. Not settled.
+
+- The druids do not trust the Moon AIs. They hold that AI was the
+  ultimate case of humanity losing touch with nature and living in an
+  illusory world.
+
+- The Moon AIs sometimes judge from a message that they need another
+  group, and that is how they have contacted the druids. The druids
+  hear them out with skepticism, sometimes agree and sometimes
+  decline.
+
+- Fits the earlier note that the Moon AIs do not help one faction
+  hurt another. Cleanup is the kind of request the druids can say yes
+  to.
+
+- Open: how the two groups are unified (a joint order, a shared rite,
+  or an uneasy alliance that stays unresolved), and the believer's
+  debt hook.
+
+## Names: lunatics (Matt, after question 60)
+
+- Moon AI worshippers are sometimes called "lunatics". The old
+  meaning of the word was "moon worshipper". Slang, used by outsiders
+  and perhaps by some worshippers themselves. Open: whether it is an
+  insult, a badge, or both, depending on who says it.
+
+## Starting position 3: the believer (question 61)
+
+Decided (question 61, Matt took option 1):
+
+- The Moon AIs contacted the trash druids about a ruin that may be
+  leaking or failing. The elders are skeptical but unsure, so they
+  send a young druid as an observer with the Moon followers' cleanup
+  party. The druid checks the sermon, watches the Warlock, and
+  protects the land if the warning proves true. This is the smallest
+  form of unifying the druids and the lunatics: one druid and one
+  Warlock on a joint errand that neither community fully trusts.
+
+- The Warlock's start is the same event from the other side: their
+  rig catches the sermon, and their congregation sends them to act.
+
+- The druid's mission is a chance to prove they can be trusted and
+  move up in the druid hierarchy. This gives the druids a rank
+  ladder like the corporate one, with status and power at the top.
+
+- Two motives for climbing, both valid (Matt):
+
+  - Status and power.
+
+  - Belief in healing the earth.
+
+  The motive is a character choice, not a rule. It gives the DM a
+  hook for temptation and conflict.
+
+- The debt hook is an obligation, not money: the druid owes the
+  elders a report and a result, and the Warlock owes their
+  congregation the same. The reward is standing in the hierarchy.
+
+- Open: the druid rank ladder (names, what each rank may do), who
+  reports to whom, and how the engine tracks standing (a number like
+  corporate rank, or a debt-like ledger).
+
+## The druid gift economy (Matt, answering question 62)
+
+- Decided (question 62): druids do not run on debt the way the
+  city-state dwellers do. Status comes from what a person has done to
+  heal the earth and benefit the community. This replaces the ladder
+  proposals (a single rank number, named grades, per-elder trust).
+
+- Druids give gifts to each other. A gift creates an implicit
+  obligation: the receiver grants the giver a little more respect. It
+  is not an explicit contract, and nobody writes it down.
+
+- Effect on the mission: if the player completes it, the people who
+  sent them feel they have received a gift from the player and feel
+  more bonded to them.
+
+  - The bond unlocks new requests sent to the player, because the
+    player is now more trustworthy and reliable.
+
+  - The leaders may give gifts back on the player's return, because
+    they want to cancel out their own sense of obligation.
+
+- The contrast with the cities is the point. Corporate rank is
+  bought with debt and is nearly hereditary. Druid standing is earned
+  by deeds and bonded by gifts, with no contract.
+
+- Engine impact, for the mechanics stage: the script needs a way to
+  record the bond between the player and a group or an NPC, and to
+  adjust it when a gift is given or returned. Open: whether it is one
+  number per group or per person, whether a gift back reduces the
+  bond it would otherwise raise, and whether the same record can
+  serve the corporate side (favors and bribes) so the engine has one
+  relationship mechanism, not two.
+
+- Open: the druid hierarchy is still unnamed. Standing is not a
+  number, but leaders exist ("the people that sent them"). Who they
+  are, and whether the Moon followers can see a druid's standing.
+
+## Relationship records (Matt, answering question 63)
+
+- Decided (question 63): option 2. Goodwill is kept per person, not
+  per group. This supersedes the per-group proposal and the open
+  questions at the end of the gift economy section about one number
+  per group.
+
+- Each NPC has a table of how they feel about every other NPC and
+  about the player. The table has rows only for relationships that
+  are above average or below average. No row means neutral.
+
+- The number is a game mechanic, like hit points. It is never spoken
+  of in play. The DM shows it through behavior and words, not as a
+  figure. This is a rule for `SKILL.md`: never state a relationship
+  value to the player.
+
+- Applies to the druids for now (Matt said "NPC in the trash
+  druids"). Open: whether the same table serves corporate NPCs
+  (favors, bribes), the Moon followers, and everyone else, which
+  would give the engine one relationship mechanism.
+
+- Consequences for the engine, for the mechanics stage:
+
+  - The script owns the table. Absent rows read as neutral, so the
+    state stays small.
+
+  - A row is created when a relationship moves away from neutral,
+    and removed when it returns to neutral.
+
+  - NPC-to-NPC rows exist too, so the DM can run gossip, rivalries
+    and a leader's hesitation to trust someone.
+
+- Open: how a gift moves the giver's and receiver's rows, whether a
+  gift back reduces the row it would otherwise raise (the leaders
+  cancelling their obligation), what thresholds unlock requests, and
+  whether the player can refuse a gift back to keep an elder
+  obligated.
+
+## One relationship mechanism for everyone (Matt, answering question 64)
+
+- Decided (question 64): option 1. Every NPC in the world has the
+  same kind of table, not only the druids. This answers the open
+  question at the end of the previous section.
+
+- Rows are created only after an event. An NPC who has never met
+  the player has no row about them. A row is still removed when the
+  relationship returns to neutral.
+
+- Debt stays what it is: an explicit amount the player owes. The
+  tables record feelings, and the two are separate.
+
+- The cultures differ in what moves a row, not in the mechanism.
+
+  - Druid rows respond to deeds and gifts.
+
+  - Corporate rows respond to rank, money and leverage.
+
+  - A bribe raises a row but may fall again if the NPC feels bought.
+    A threat lowers it.
+
+- Open: how much each kind of event moves a row, and the thresholds
+  that unlock requests (still open from the previous section).
+
+## Starting position 2: the arrest (question 65)
+
+- Decided (question 65, Matt took option 1): the scavenger heard one
+  of the Moon broadcasts and went into the ruins without a permit to
+  find what it pointed to. Troopers working for the salvage
+  corporation caught them on the way out.
+
+- The salvage corporation is the same one that bought the sermon
+  information and hired the permit team (position 1). It needs
+  someone who knows that ruin, and the scavenger has been there. The
+  deal: guide the team as an unregistered guide, or lose everything.
+
+- So all three starts share the sermon, the ruin and the salvage
+  corporation.
+
+- Proposed in the question, not answered: the deal is offered by a
+  named trooper who answers to the salvage corporation, a recurring
+  NPC with a relationship row from the first scene. Matt took only
+  option 1, so this is still open.
+
+- Open: whether the scavenger's knowledge of the ruin is real or
+  claimed. This is plot and belongs in a secret file. Whether the
+  scavenger owes a middleman as a side hook.
+
+## How the starts meet (Matt, answering question 66)
+
+- Decided (question 66): the shared opening is the salvage team,
+  with the scavenger forced to work as its guide and trap detector.
+  This replaces the three arrival options offered.
+
+  - The player is either the scavenger or a member of the salvage
+    team, by choice of character.
+
+  - Later the party discovers the Moon follower (the cleanup party)
+    at the site of the cleanup.
+
+  - If the player is a trash druid, the salvage team are NPCs. Matt
+    must describe how they react to a druid. Open.
+
+- This changes position 3 (question 61). The druid is not an
+  observer with the Moon followers' party from the start. A lone
+  druid enters the ruin to scout and learn, and may bring back soil
+  samples and specimens for analysis. The Moon followers are met at
+  the site. The Warlock's start is unsettled: they were the other
+  half of the joint errand, but are now found at the site.
+
+## Trash druids and technology (Matt, after question 66)
+
+- Druids love science, engineering and technology, but insist on
+  using it only in safe, non-harmful ways. They prefer simple
+  solutions to complex technology.
+
+- Consequence for the Engineer and the AI taboo: a druid is not
+  against technology as such. Their objection to the Moon AIs is
+  about illusion and distance from nature, and about complexity.
+
+## The druid's mission, and trespass (Matt, answering question 67)
+
+- Matt did not pick among the options offered for question 67 (ask
+  whether the warning is real; also judge whether a simple fix
+  exists; also watch the other groups). Working assumption, to
+  confirm: the first two. His answer instead set the surroundings.
+
+- The druid is warned that other groups may be in the ruins. The
+  player has heard stories of the brutality of city-state salvage
+  teams.
+
+- Moon followers are seen as peaceful. Trash druids do not worry
+  about violence from them.
+
+- Moon followers and salvage teams get on badly.
+
+  - Followers are seen as unlawful trespassers with no rights,
+    because no corporation sponsors them.
+
+  - Security members of a salvage team may try to stop them.
+
+  - Troopers or security may arrest them and bring them back for
+    incarceration. The fees from the trespass become a debt, and the
+    followers must work it off.
+
+## Prisoners working off debt (Matt, after question 67)
+
+- Many people in labor camps and factories are prisoners working off
+  debts. Some come from the wilderness and were caught scavenging
+  unlawfully. Some are trash druids, some are Moon followers and some
+  are just scavengers.
+
+- This gives the scavenger's deal (question 58) its stakes: "lose
+  everything" means the labor camp. It also joins the three starts
+  under one mechanism, since a hospital bill (question 53), a school
+  debt and a trespass fee are all debt, and a work-off contract is
+  how a big debt is paid.
+
+- Open: the length and terms of a work-off sentence, who holds the
+  debt (the corporation that arrested you, or a prison operator), and
+  whether a prisoner can be bought out or escape.
+
+## How a salvage team treats a druid (Matt, answering question 68)
+
+- Decided (question 68), nearest to option 3 with the individual
+  variance of option 1: security team members are usually told not to
+  engage with other people in the ruins once they have set up a
+  perimeter around the work area.
+
+- Fighting costs them. A security member hurt in combat may take on
+  more debt for medical treatment, so they avoid risk when they can.
+  This is the hospital-bill rule (questions 51 to 53) shaping NPC
+  behavior: the debt system makes security cautious.
+
+- People differ. Some security members love to fight and some love
+  to arrest trash druids. All of them know a druid may fight back and
+  understand the risk.
+
+- So the general stance is hostility without action. The team
+  engages only if the druid interferes with the mission.
+
+- Not answered: whether the corporations see druids as eco-saboteurs
+  in general or only as a rumor. Still open.
+
+- Open: what counts as interfering, and what the team does about it
+  (warn, arrest, or fight).
+
+## What counts as interference (Matt, answering question 69)
+
+- Decided (question 69): option 1 in general. The team's work area
+  is the line.
+
+  - Staying outside the perimeter, or passing through without
+    stopping, is ignored.
+
+  - Crossing it, touching the salvage targets, tampering with the
+    team's equipment or sabotaging their route is interference.
+
+  - The first response is a warning (shouts, a raised weapon, an
+    order to leave). Arrest or a fight comes only if the druid stays
+    or acts again.
+
+  - Sampling soil outside the perimeter is fine. Sampling inside it
+    is not.
+
+- Matt: perhaps later there will be a much more aggressive NPC
+  supervisor. This is the stretch case (option 3 in the question):
+  a supervisor who calls harmless things interference. Not part of
+  the general rule, and left to a later seed.
+
+- Not answered: whether a security member who loves to fight may
+  skip the warning. Working assumption: yes, but only as an NPC
+  quirk, and it costs them if they get hurt (their own debt).
+
+## Druids are hard to find (Matt, after question 69)
+
+- Trash druids, because of their devotion to the earth, are
+  exceptionally hard to identify in the wild. They use technology to
+  mask their presence.
+
+- Consequences:
+
+  - Security often does not know a druid is there until the druid
+    acts. This fits the lone scout, and it makes "interference" the
+    druid's choice.
+
+  - It gives druids a skill-system fit: Stealth plus masking gear.
+    Open: whether masking is gear (found or made) or a druid
+    practice, and whether it works on Moon AI sensors and drones,
+    which would matter for rogue AIs.
+
+  - It adds to the tone for druids: low-tech in philosophy, but they
+    use technology, simply and safely, to hide.
+
+## Druid cloaking and gadgets (Matt, answering question 70)
+
+- Matt did not pick one of the three options offered. His answer
+  replaces them. Option 1 (a simple hand-made craft) is not the
+  whole picture.
+
+- Trash druids often sell illegal cloaking technology that jams
+  surveillance. They salvage old technology, reprogram it and sell
+  it. So the masking is salvaged and reprogrammed machinery, and it
+  is also a trade good.
+
+- Some druids are engineers who hold that high technology is the
+  best way to counter the damage done by other high-technology
+  projects. This is a split inside the druids, next to the ones who
+  prefer simple methods (see "Trash druids and technology").
+
+- A player druid may have robotics and hacking skills and a variety
+  of gadgets for working against city-state technology. The gadgets
+  are simple and cleverly disrupt much more complex and powerful
+  systems.
+
+- The druid saying: "destroying a dam takes dynamite". To remove a
+  dam that harms a natural river, low-technology methods will not do,
+  and dynamite (the symbol of high technology) is sometimes needed to
+  heal the earth.
+
+- Consequences:
+
+  - Druids are not pacifists or purists. They sabotage when the
+    healing needs it. This answers part of the old question "how far
+    do the radicals go". Open: where the line is, and whether
+    sabotage of a Foundry House plant counts as healing.
+
+  - A druid selling jamming gear is a crime in the cities. A druid
+    caught with it is a prisoner working off debt.
+
+  - Druids can trade with scavengers and anyone who needs to hide.
+    This gives the scavenger and the druid a shared market, and a
+    reason for a relationship row between a druid and a middleman.
+
+  - The earlier question of whether masking works against AI sensors
+    is open again. The gear jams surveillance, but the engine needs
+    a rule for what it fools.
+
+## Gadgets as skill boosts (Matt, answering question 71)
+
+- Decided (question 71): option 1, with a change. Gadgets are named
+  items in the world data, and each one gives a boost to a skill
+  check. A stealth check is improved by the druid's gear, but the
+  check can still fail. The gadget is a modifier, not a guaranteed
+  result.
+
+- No limit in theory on how powerful druid technology can be. In
+  practice druids have no economy able to manufacture large amounts
+  of valuable military equipment.
+
+  - Gadgets are passed around as valued gifts. This joins the gadget
+    list to the gift economy and the relationship tables: giving a
+    gadget is a large gift.
+
+  - Gadgets get damaged. They must be repaired, or upgraded, when
+    they stop working. Repair uses Robotics, Hacking or Salvage.
+
+- Power level (Matt):
+
+  - Most gadgets help with stealth, or are short-range stunning or
+    blinding weapons for escaping danger.
+
+  - Making a trooper's implants fail is possible with the right gear,
+    but very rare. This answers part of the open question about
+    whether an AI or a gadget can disrupt a trooper's link.
+
+- Open: the actual gadget list (the world data needs four to six),
+  the boost sizes on the 1 to 100 scale, and how a gadget breaks
+  (a failed check, a roll-under threshold, or use count).
+
+## The Warlock's start, and the order of arrival (question 72)
+
+- Decided (question 72, Matt took option 1): the Warlock starts with
+  the congregation's cleanup party, heading for the ruin. The rig has
+  caught a sermon about a danger in the ruin. The Warlock is the
+  party's ear, listening to the signals and asking whether the Moon
+  AIs would approve. The debt hook is an obligation to the
+  congregation, like the druid's to the elders.
+
+- Not answered: whether the party's other members become companions.
+
+- Matt's change to the order of events:
+
+  - The Moon followers go in first, and the salvage team goes later.
+
+  - The corporation that listens to the sermons watched the followers
+    at work, decided there was probably something worth salvaging,
+    and then sent the team.
+
+  - So tension begins when the salvage team arrives at a site where
+    the followers are already working and making progress.
+
+  - This replaces the earlier picture of the team and the followers
+    arriving together or the team being there first. It keeps the
+    shared event: the same corporation that sold the sermon
+    information also reads the followers' behavior as a clue. The
+    followers are bait without knowing it.
+
+- The supervisor wants the information the followers have already
+  gathered, and is willing to negotiate for it. The example offer:
+  the followers may leave without being arrested if they share all
+  their data collected from that area of the ruins.
+
+- Consequences:
+
+  - The first big scene is a negotiation, not a fight. It works from
+    either side: a Warlock player is asked to hand over the data, and
+    a salvage-team or scavenger player watches the supervisor ask for
+    it.
+
+  - It uses the debt and arrest system: the alternative to sharing is
+    arrest, a trespass fee and a labor camp.
+
+  - It uses the relationship tables. How the supervisor treats the
+    followers, and how the security members react, depend on rows.
+
+  - The druid, hard to see, may watch the negotiation unseen. That
+    gives a lone druid information the others lack.
+
+- Open: whether the offer is official or the supervisor's own
+  bargain, what the data is, whether the followers accept, and what
+  the supervisor does with the data afterward.
+
+## The offer is private; the ruin is a research hospital (Matt, answering question 73)
+
+- Decided (question 73): option 1. The supervisor's offer is a
+  private bargain. The security team may not honor it, so the player
+  must judge whether the supervisor can deliver. Security members'
+  relationship rows decide who lets the followers go.
+
+- Supervisors are told to make field decisions that maximize the
+  chance of success. Negotiation can be best, depending on the size
+  and weapons of the other parties.
+
+- In general corporations want exclusive control of the ruins and do
+  not want other factions to obtain valuable technology.
+
+- Murdering Moon followers is seen as dangerous because of the
+  chance of revenge, but sometimes combat is necessary.
+
+- Not answered: whether the followers know the supervisor is crooked.
+
+## The first ruin: an abandoned research hospital (Matt, after question 73)
+
+- The Moon messages describe something in an abandoned research
+  hospital, a biological research facility in the ruins. This is the
+  place all three starts explore. This answers what the shared ruin
+  is.
+
+- It is many city blocks of different buildings, with a lot to
+  explore.
+
+- Fits earlier threads, to reuse and not replace:
+
+  - Biology and Medicine skills, and the biological expert role.
+
+  - Cloning and memory transfer: a research hospital is the natural
+    home for that technology and its records.
+
+  - The danger the Moon messages warn about: a leaking waste store,
+    a failing power source, or contamination that makes mutants. The
+    giant insects and chemical contamination also fit.
+
+  - Dormant AIs and robots, and the hospital bill: the world's
+    hospitals today are where defeat sends you, so the ruin of an
+    older one carries meaning.
+
+- Per the earlier rule, the truth of what is inside is not fixed.
+  The DM chooses from a menu in the secret files to suit the story.
+  What the sermon says, and the name and look of the place, are
+  player-safe.
+
+- Open: the ruin's name, how it is laid out for play, and which
+  parts are player-safe.
