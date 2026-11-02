@@ -4,29 +4,17 @@ Resume the interview here. Claude asks one question at a time, with a
 recommendation and options. Matt answers, and Claude takes notes in
 `decisions.md`. All answers so far are in `decisions.md`.
 
-Questions 36 to 73 are answered and recorded in `decisions.md`. The
-interview is at question 74. Design rule from Matt: all starts share
+Questions 36 to 84 are answered and recorded in `decisions.md`. The
+interview is at question 85. Design rule from Matt: all starts share
 the same events (see `decisions.md`).
 
 ## Next up
 
-0. **Q74, pending: how the research hospital is laid out for play.**
-   Options offered: (1) 10 to 14 named zones, each with a menu of
-   possible contents (recommended); (2) a few big zones with the DM
-   inventing the rest; (3) one fixed floor plan. Also ask which kinds
-   of buildings the campus has. Still unanswered from earlier: whether
-   the followers know the supervisor is crooked, whether the
-   Warlock's party members are companions, and whether security
-   members who love to fight may skip the warning.
-
-0. **Q59, pending: the believer's start (position 3).** A Warlock or
-   trash druid. Options offered: (1) a garbled Moon AI sermon to
-   answer or trace, recommended; (2) a patch of land that will not
-   heal and needs something from the ruins; (3) a trip to a city to
-   sell a community good. Ask where the game begins, what they want
-   first, and the debt hook (a debt to the community that trained
-   them). Position 2's open items: what the scavenger was caught
-   doing, who offers the deal, whether it is the position 1 team.
+0. **Q82, pending (Matt will answer later): the Warlock's party.**
+   Matt wants to redefine and add more first. Other unanswered items:
+   whether risk rises over time in a ruin (a rules item), who the
+   dual-loyalty NPC is, and the lists below. Rules questions go in
+   `rules-questions.md`.
 
 1. **Hospital detail.** Defeat means the hospital and a bill (a
    work-off contract only on a big bill). Open: how the bill is

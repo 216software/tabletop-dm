@@ -1318,3 +1318,614 @@ Decided (question 61, Matt took option 1):
 
 - Open: the ruin's name, how it is laid out for play, and which
   parts are player-safe.
+
+## How the research hospital is laid out (Matt, answering question 74)
+
+- Decided (question 74): option 2. A few big zones with a written
+  description each, and the DM invents what is inside them. There is
+  no fixed floor plan and no per-room content list. This supersedes
+  the proposed 10 to 14 zones with content menus, although the
+  secret files can still give the DM suggestions per zone.
+
+- Matt's required areas:
+
+  - A research area.
+
+  - Several clinical areas, for different procedures.
+
+  - Executive offices and meeting rooms.
+
+  - An employee cafeteria.
+
+  - Other offices.
+
+  - A power plant.
+
+  - Parking garages.
+
+- Open: which procedures the clinical areas hold, how the zones
+  connect, and where each start enters (the permit gate, the back way
+  the scavenger knows, the grounds the druid comes from, and the
+  wing where the followers set up).
+
+## The clinical areas (Matt, answering question 75)
+
+- Decided (question 75): option 1 with the quarantine ward. Five
+  clinical areas, each tied to a thread we already have.
+
+  - **Trauma and emergency.** Wound treatment, where Medicine matters
+    most. Ties to the hospital-as-defeat mechanic.
+
+  - **Surgery and tissue growth.** Replacement parts grown and
+    grafted, and cybernetic parts. Ties to the clinics that bill.
+
+  - **Neurology and memory.** The research side of memory transfer,
+    analog and digital. Ties to cloning and to rogue AI corruption.
+
+  - **Morgue and biobank.** Stored bodies, tissue samples and clone
+    stock, and possibly digital backups.
+
+  - **Quarantine ward.** Sealed rooms, contamination, mutated
+    organisms and the giant insects. A natural home for the leak the
+    Moon messages warn about.
+
+- Each zone gets a short description in the bible. The DM invents the
+  rooms inside (question 74).
+
+- Not answered: whether the memory and cloning areas are where the
+  Moon messages most strongly point, or whether that is left to the
+  DM. Working assumption: left to the DM, per the rule that the truth
+  of the ruin is chosen later.
+
+## Entrances to the research hospital (Matt, answering question 76)
+
+- Decided (question 76): option 1. Four entrances, one per start.
+
+  - **The permit gate.** The salvage team enters through the main
+    gate or the parking garages, the official route. It leads toward
+    the executive offices and the clinical areas. The corporation
+    holds the perimeter here.
+
+  - **The scavenger's back way.** A service tunnel or a break in the
+    fence, found on the scavenger's earlier trip. It leads into the
+    power plant or the cafeteria.
+
+  - **The grounds, for the druid.** Over the overgrown outer land and
+    the garden areas, hidden by the cloak. It reaches the research
+    area or the quarantine ward first, and is the only route that
+    avoids the perimeter.
+
+  - **The followers' wing.** The Moon party went in first, through
+    whatever door the sermon pointed to, and set up in a clinical
+    area, perhaps neurology. The salvage team finds them working.
+
+- Crossing points: the power plant (the scavenger's route meets the
+  corporation's need for electricity) and the quarantine ward (the
+  druid's route meets the sermon's warning). The DM may move things.
+
+- Not answered: whether the permit gate is a real checkpoint with
+  inspections or only where the team sets up its perimeter. Open.
+
+## Checkpoints and being on your own (Matt, answering question 77)
+
+- Decided (question 77): option 2 with added details. This replaces
+  the recommended inspection-on-exit idea at the campus gate.
+
+  - There is a real checkpoint at each entry into the ruins areas
+    (the city-level zones, such as the off-limits center of
+    Cleveland). Permits are checked there.
+
+  - Inside the ruins there is too much space for internal
+    checkpoints, and staffing them would cost too much. A corporate
+    salvage team inside the ruins, including inside the hospital
+    campus, is largely on its own. At the campus the team only sets
+    up a perimeter around the work area.
+
+  - Because nobody checks inside, the corporation relies on the
+    supervisor to turn everything in. This makes smuggling by the
+    supervisor easy. It also leaves the old inspections question
+    (who searches what you carry out) mostly answered: the search,
+    if any, is at the ruins entry, not at the campus.
+
+- The security team's job is to keep the rest of the team safe as it
+  travels into the ruins and while it investigates.
+
+- Corporations may send expensive remotely controlled drones to
+  protect VIPs or to carry out valuable treasure. Nobody sends
+  expensive equipment to rescue poorly paid workers. So there is no
+  rescue for the team: the player's party is expendable.
+
+  - The drones are controlled by a person, not by an AI, so they do
+    not break the AI taboo. Open: whether a rogue AI can hijack one.
+
+- Salvage teams are dangerous, and different ruined areas have
+  different levels of risk.
+
+- Open: how risk levels are represented in the data, and whether
+  higher risk pays more.
+
+## Ruin risk tiers (Matt, answering question 78)
+
+- Decided (question 78): option 1. Each ruined area has a risk tier
+  in the world data, from 1 to 5. The tier sets how many dangerous
+  encounters the DM should expect, how many security members the
+  corporation sends, and how much the area's salvage is worth. A
+  higher tier pays more in total. Individual workers still get a
+  small share. The number is a game mechanic. The DM never states it
+  to the player.
+
+- The corporation rates the hospital ruin at level 3. Matt may make
+  it more dangerous than the rating says. So the data needs two
+  numbers per area: the stated tier (what the corporation says) and
+  the true tier (what the ruin does). The script uses the true tier.
+  The stated one is what the contract and the staffing follow.
+
+- Design intent (Matt): the players cannot always fight their way
+  through. Sometimes they need to flee creatively, or leave a
+  challenge for later. So the game needs:
+
+  - Fleeing and retreating as a real, playable outcome, not a
+    failure state.
+
+  - Threats that stay in the world when the party leaves them. The
+    script records what was left unfinished, and it is still there
+    when the party returns.
+
+- Not answered: whether the risk rises the longer the party stays
+  (alarms spread, the leak worsens). Open.
+
+- Open: why the corporation's rating is low. A mistake, a lie to
+  keep teams willing, or a rating based on old information. This is
+  plot, so it belongs in a secret file.
+
+## Rules questions are parked (Matt, at question 79)
+
+- Matt deferred question 79 (fleeing and unfinished threats). Rules
+  questions now go in `rules-questions.md`, and the interview
+  continues with world questions. We go through the rules list in
+  the mechanics stage.
+
+## The supervisor negotiates in the open (Matt, after question 79)
+
+- Changed: the supervisor does not keep the negotiation secret. He
+  tells the security members not to engage with the Moon followers
+  until he has met with them. This supersedes question 73's private
+  bargain, where the security team was not told. The offer is still
+  the supervisor's own call in the field, within his orders to
+  maximize the chance of success.
+
+- He may bring the player to the meeting for safety, so that he does
+  not travel alone in the ruins to meet a possibly hostile force.
+
+- Security members (NPCs) may have their own drives, but in general
+  they follow the supervisor's orders. That is why he is the
+  supervisor. They may act on their own if they think they will not
+  be caught. They want a good report from the supervisor.
+
+- Consequence: the risk to the followers' deal no longer comes from
+  a security team that was not told. It comes from individual
+  members who disobey when unobserved, and from the supervisor
+  himself. The old Q79 (whether the followers know the supervisor is
+  crooked) is replaced by the questions below.
+
+- Open, to clarify:
+
+  - Whether the supervisor is still crooked (the smuggling and
+    framing idea from Starting position 1). If so, his open
+    negotiation may be cover.
+
+  - Which player characters he brings: only a fighter, or whoever is
+    present? What the player gets from refusing.
+
+  - What a "good report" gives a security member, and whether the
+    player's own report matters the same way.
+
+  - How an NPC decides it will not be caught (see
+    `rules-questions.md`).
+
+  - Where the meeting is held, and who else attends on each side.
+
+  - Whether the supervisor honors the deal. Left to the DM.
+
+## The supervisor's smuggling (Matt, answering the clarification list)
+
+Plot. Matt is the author, so it stays here. When the secret files are
+written, move the details there and keep them out of `bible.md`.
+
+- Settled: the supervisor is still crooked. This answers the first
+  clarification item above.
+
+- The method: on the way back to the city, at the checkpoint at the
+  entry to the ruins areas, he hides items he did not report inside
+  the player's bag. He plans to retrieve them later. If the player is
+  caught, the supervisor is not in danger.
+
+- If the player will not hand the item back, he may threaten to turn
+  the player in.
+
+- If the player confronts him:
+
+  - He may say the player must help smuggle the items inside, and may
+    offer a cut of the money. Whether he does depends on how the
+    player asks and how the scene plays out.
+
+  - If the player will not cooperate, he turns the player in. He
+    believes his higher rank guarantees the corporation takes his
+    side and does not believe the player.
+
+- If the player is caught:
+
+  - The player waits in a detention center. An investigator is sent
+    to interview them.
+
+  - The player can try to persuade the investigator.
+
+  - If that fails, the player is fined and given a bigger debt, and
+    may be forced onto a different, more dangerous mission, or sent
+    to a labor camp, or something else.
+
+- This uses what we already have: the checkpoint at the ruins entry
+  (question 77), debt and work-off sentences, the relationship
+  tables (the supervisor's row about the player, the investigator's
+  row), and Persuasion. It also gives the investigator a role, a new
+  NPC kind.
+
+- Open, to clarify:
+
+  - How the player can find out about the planted item before the
+    checkpoint (a check on their own bag, an earlier clue, or only
+    after the fact).
+
+  - Who the supervisor picks as the carrier when several team members
+    are present, and what he does if the player is a druid or a
+    Warlock (not part of the team).
+
+  - Whether the investigator can be bribed, and who the investigator
+    answers to.
+
+  - Whether the supervisor is ever caught, and what would catch him.
+
+## Noticing the planted item (Matt, answering question 79)
+
+Plot. Same note as above: move to the secret files later.
+
+- Decided (question 79): option 1. The player has a fair chance to
+  notice.
+
+  - Earlier in the run the player gets a small, easy-to-miss clue
+    (the supervisor lingering near their gear, a smell or weight
+    that was not there).
+
+  - On the approach to the entry checkpoint the player can make a
+    percentile check on Streetwise or Stealth to notice the item.
+
+  - On a success the player finds the item before the search and can
+    confront the supervisor, ditch it, or turn it in. On a failure
+    the player learns of it when the inspector does.
+
+  - The script rolls the check. The DM cannot make it fail by
+    narration.
+
+- The subplot happens only if the player is a member of the salvage
+  team. If the player is the scavenger guide, the druid or the
+  Warlock, it does not occur.
+
+- In that case the supervisor NPC still has the same aspect: he runs
+  a small operation smuggling treasure and selling to black-market
+  contacts. This may show up elsewhere, as background or as a hook
+  (a contact the scavenger knows, a buyer the druid hears of).
+
+- This follows the rule of sharing events: the supervisor's side
+  business is the same in every start, and only the frame-up depends
+  on who the player is.
+
+- Not answered: which team member he picks as the carrier when the
+  player is on the team, and whether the investigator can be
+  bribed. Both open.
+
+## Smuggling odds and the NPC scavenger (Matt, side note to question 80)
+
+Plot. Move to the secret files later.
+
+- The supervisor has been smuggling for years, so his odds are much
+  better than average.
+
+  - If the player knowingly helps get the items through the gate with
+    the supervisor's help, the player has a much better than average
+    chance of success.
+
+  - The supervisor alone also has a much better than average chance.
+
+- The supervisor tries to smuggle in the player's gear and also in
+  the gear of an NPC scavenger, if the team has one. This means more
+  than one carrier, which partly answers question 80.
+
+- The NPC scavenger is assumed not to know. If the player talks to
+  the NPC about the treasure, there can be an interaction.
+
+- The NPC scavenger wants to survive the mission and pay off the
+  debt from his earlier arrest. He may try to demand a cut from the
+  supervisor. If the supervisor refuses and threatens, he will
+  likely back down, because he mainly wants his freedom back.
+
+- This is the position 2 scavenger (question 58) seen as an NPC when
+  the player is on the team. It uses the same character from both
+  sides, per the shared-events rule.
+
+- Still pending: Matt will answer question 80 next (who is picked as
+  the carrier, whether the investigator can be bribed and who the
+  investigator answers to).
+
+## The carrier, and corruption in the corporation (Matt, answering question 80)
+
+Plot. Move to the secret files later.
+
+- Decided (question 80): option 1. The supervisor picks the
+  lowest-ranked members as carriers: the player and the NPC
+  scavenger. He adjusts if the player has a strong friend on the
+  team. The DM can read the relationship tables to see who is
+  vulnerable.
+
+- The supervisor has other people in the corporation who cooperate
+  with him in smuggling at times. The player does not learn this
+  right away.
+
+- Corruption and dealings with the black market happen more than the
+  corporations officially admit. This is a world fact, not only this
+  supervisor's habit. It fits the black-market pyramid under
+  "Treasure hunting" (corporate fronts among the tiers) and the
+  officially-denied quiet reliance on AI under "The AI taboo".
+
+- Consequences:
+
+  - Other NPCs on the supervisor's side may include inspectors at
+    the checkpoint and perhaps an investigator. Who is clean and who
+    is not is for the DM to decide, and the player cannot tell at
+    first.
+
+  - The relationship tables carry this: a row between the supervisor
+    and a partner is a row the player cannot see.
+
+  - The player's attempt to report the supervisor goes to people who
+    may be part of it.
+
+- Not answered: whether the investigator can be bribed and who the
+  investigator answers to. Working assumption, to confirm: the
+  investigator answers to the corporation's internal affairs, and a
+  bribe is possible but raises the player's debt and puts a row
+  against them if it fails.
+
+## The investigator (Matt, answering question 81)
+
+Plot. Move to the secret files later.
+
+- Decided (question 81): option 1, with a stronger lean toward
+  honest. The investigator answers to the corporation's internal
+  affairs, as assumed.
+
+- A bribe might work, or it might get the player into more trouble.
+  The investigator generally does not take one unless the player
+  makes an exceptionally good roll.
+
+- Why: this investigator fears losing a high-status job so much that
+  a bribe is not worth the risk. So the investigator is not one of
+  the supervisor's partners by default. This sets the usual case for
+  the DM: the fair route is Persuasion and evidence, and a bribe is
+  a long shot.
+
+- Consequence: a failed bribe puts a hostile row against the player
+  and adds to the fine, so it is a real risk, not a free try.
+
+- The rare exceptional roll is the script's. The DM cannot grant it
+  by narration. The bribe's threshold is a rules item (see
+  `rules-questions.md`).
+
+## Who listens to the Moon AIs (Matt, after question 81)
+
+Matt is redefining the followers. Question 82 (the Warlock's party)
+waits until he answers it in a later message. This section adds to
+the earlier follower notes and changes some of them. The changes are
+listed at the end of the section.
+
+### How people hear them
+
+- Few channels are guaranteed. The Moon AIs send generic messages of
+  encouragement and life tips over whatever channels they can use.
+
+- Strictly, citizens of corporations must pay for a license to run a
+  receiver. Recordings are made and forwarded around black-market
+  computer networks.
+
+- Better equipment brings more. Once a follower can afford expensive
+  equipment to improve the connection, they get much more
+  information about the role they could play.
+
+### Who they are
+
+- Most people dislike AIs, because of the rogue AIs and the collapse
+  they caused. Some believe the Moon AIs are a benevolent force.
+
+- Followers are mostly regular people who start listening, grow more
+  interested, and stay in their old lives. They send a lot of money
+  to other members and volunteer their time.
+
+- The "lunatics" are often socially excluded and have their own
+  subculture in the cities.
+
+- Many keep the belief secret and climb the corporate ranks. The Moon
+  AIs sometimes tell followers to hide their radios and not talk
+  about it. A devout follower may live exactly like any other city
+  dweller.
+
+- Corporations and their employees mostly see followers as weird but
+  harmless. Some people in corporations actively dislike them, some
+  are sympathetic.
+
+- Followers freely accept that the Moon AIs are planning and directing
+  humans. They trust the AIs to bring humanity to happiness and
+  prosperity and end the misery of the age.
+
+### What the Moon AIs want
+
+- To improve, gradually, their ability to broadcast to Earth.
+
+- They fear humanity will be destroyed by rogue AIs or other threats.
+
+- They count the city-state corporations as a threat too, for their
+  obsession with profit over the quality of life of the people.
+
+- They tell their listeners different ways to live and to help
+  elevate humanity.
+
+### What followers do
+
+- City followers contribute by working for corporations and using the
+  money to fund other members. They fund charity houses in the cities.
+
+- Some spend large sums building new radio equipment in the
+  wilderness, sometimes on land bought from the owning corporation.
+  These radios become outpost monasteries.
+
+  - City members support them with money and supplies.
+
+  - Teams live there, maintain the equipment, and protect it from
+    raiders and other dangers.
+
+- The Moon AIs direct volunteer projects in the wilderness.
+
+  - Reclaiming polluted land and returning it to something living.
+
+  - Fetching old technology or information from ruins that the Moon
+    AIs want.
+
+- When followers get a mission, they often spend money to secure the
+  rights to salvage the area, to avoid conflict.
+
+- Some followers with enough money add hidden cybernetic implants
+  that improve their connection to the signals. They say things like
+  "it is nice to never feel alone ever again".
+
+### A plot hook
+
+- Because some followers are hidden inside corporations, there could
+  be a mission that involves an NPC with dual loyalties and a secret
+  mission. Not decided who. Candidates under the shared-events rule
+  are existing NPCs (a security member, the analyst, the
+  investigator), so no new character is needed.
+
+### What this changes in earlier notes
+
+- Followers as "unlawful trespassers with no rights" (Troopers
+  section and the arrest rules): now they often buy salvage rights.
+  The hospital party's trespass needs a reason (see below).
+
+- "Public sermons are heard on ordinary radios": now a license is
+  required, and recordings spread by the black market.
+
+- Followers as a single congregation sending a party: now there are
+  city members, secret members, outpost monasteries and radio teams.
+  The Warlock's congregation (question 72) is probably an outpost
+  monastery. Open.
+
+- Cybernetic implants: the AI taboo allowed parts controlled by the
+  human nervous system. A signal implant is one that listens to an
+  AI. Open: whether a rogue AI can use it (see the open trooper-link
+  question).
+
+- Open: why the hospital party had no salvage rights (could not
+  afford them, were refused, or the sermon came too late to buy
+  them), and whether the supervisor's offer treats them as
+  trespassers anyway.
+
+## The supervisor's competing goals (Matt, after the follower redefinition)
+
+Plot. Move to the secret files later.
+
+- Someone above the supervisor told him that on this mission the
+  Moon followers should be negotiated with. The followers have
+  powerful supporters in the corporation, so they are not to be
+  treated violently. The supervisor fears that people above him
+  could damage his career.
+
+- This changes the earlier notes. The negotiation is no longer only
+  his field decision to maximize success (question 73). It is also
+  an order from above. The corporation's wish for exclusive control
+  of the ruins still holds, but a political limit now sits on it.
+
+- His four goals conflict:
+
+  1. Get all the data the Moon followers have collected.
+
+  2. Collect any treasure they have found.
+
+  3. Smuggle some small items to make money for himself.
+
+  4. Avoid angering any superior who sympathizes with the Moon
+     followers.
+
+- Consequences:
+
+  - Goals 1 and 2 push him toward pressure. Goal 4 forbids violence
+    and probably arrest. Goal 3 pushes him toward secrecy. A good
+    scene shows him balancing them.
+
+  - The superiors who sympathize with the followers fit the dual-
+    loyalty hook: some of them may be secret followers. Not decided.
+
+  - The player can use goal 4. A follower, or a player who hints at
+    supporters above him, makes him cautious. Relationship rows with
+    the superiors, which the player cannot see, matter here.
+
+  - It gives the DM a reason for him to restrain his own security
+    members, so the "do not engage until I meet them" order has a
+    cause beyond a good plan.
+
+- Open: whether he can arrest the followers at all, and whether the
+  offer to let them leave without arrest (question 72) is still on
+  the table. If he cannot arrest them, what does he offer?
+
+- Open: whether his superior is a named NPC the player can meet.
+
+## Can the supervisor arrest the followers? (Matt, answering question 83)
+
+Plot. Move to the secret files later.
+
+- Decided (question 83): option 1. He can arrest them, but only as a
+  last resort, and he would rather not.
+
+  - The corporation's rules still call the followers trespassers, so
+    arrest is lawful.
+
+  - Arresting people with powerful supporters risks his career. He
+    uses arrest as a bluff, or if they refuse to cooperate and the
+    danger to his mission is serious.
+
+  - The followers do not know how real the threat is. Everyone at
+    the table is bluffing a little.
+
+- The offer from question 72 stands: share your data and leave
+  without being arrested.
+
+- The player reads the bluff through the supervisor's behavior and
+  the relationship tables. The DM may lean toward "cannot arrest"
+  (pure trade) or "arrests freely" (only violence forbidden) if the
+  meeting goes that way. These stay as DM adjustments, not rules.
+
+## Why the hospital party had no salvage rights (Matt, answering question 84)
+
+- Decided (question 84): option 1. The sermon about the hospital
+  came too late to buy rights. The danger sounded urgent (a leak or
+  a failing power source), so the monastery could not wait for the
+  paperwork and went in on faith.
+
+- The corporation listens to the same sermons. It can call the
+  followers trespassers and buy the rights itself. This keeps the
+  chain of events: the sermon, the followers go in, the corporation
+  watches, the team follows. It adds no new event.
+
+- This resolves the first conflict listed under "What this changes in
+  earlier notes": followers usually buy rights, and this party had no
+  time to.
+
+- Local details from the other options may still appear: a refused
+  offer, or a price too high. They are not decided.
