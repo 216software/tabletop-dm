@@ -17,4 +17,6 @@ of genetic mutations.  Scientists collected mutated insects (some have
 become monstrously large and are now roving the hospital) and were
 experimenting with new viruses that would reverse their mutations.
 
-
+The corporations know a small amount about this research and they are
+also interested in it, but not for the sake of curing mutations, but for
+the sake of creating more effective military-grade mutations.

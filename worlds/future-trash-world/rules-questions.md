@@ -264,6 +264,27 @@ Mark an item done by moving it to "Answered" with a pointer to
   decides which goal an NPC acts on in a scene? Proposed: each goal
   has a weight, and the DM or a roll picks which one leads.
 
+## Creatures and drones
+
+- How are the insect types and the security drones written as data
+  for a skills-mode world? The fifth-edition monster data does not
+  fit. What does a creature entry hold (skill values, wound
+  thresholds, attacks, special effects)?
+
+- How do two hazards fight each other off-screen (the drones and the
+  insects), and how does the script track who is winning?
+
+- Insect numbers: the roach swarm (how a swarm of weak attackers
+  becomes a threat), the beetle (size classes from dog to car, how
+  much its armor resists), and acid spit as a ranged attack that
+  damages gear. Wound levels for each (question 93).
+
+- Drone hacking (question 95): the size of the penalty for hacking
+  remotely and the bonus for hacking up close with attached
+  equipment. What the danger of close hacking is (a counterattack,
+  corruption of the hacker, an alarm). Flying drones against ground
+  units: do they get different difficulties?
+
 ## Answered
 
 (Nothing yet.)

@@ -211,6 +211,35 @@ The short version:
 - Hook: an NPC with dual loyalties, a corporate insider who is a
   secret follower on a secret mission.
 
+## What the Moon AIs want from the hospital (question 89)
+
+- The Moon AIs have been sifting pre-collapse medical research data
+  and found reports of research done at this hospital. They want that
+  data.
+
+- The followers dig up the research, build an antenna and broadcast
+  it to the Moon. They do not want the memory transfer technology.
+
+- The supervisor's orders are to negotiate for a copy, and secretly
+  to sabotage the antenna so the Moon AIs do not get one. He also
+  hopes to smuggle analog memory transfer equipment.
+
+- A rival superior opposes the followers and gave the sabotage order
+  in secret (question 90). The supervisor serves two bosses who do
+  not know what the other told him.
+
+- The hospital held two insect research programs: livestock for
+  useful products, and mutations for biological weapons. Some of the
+  escaped insects descend from the weapons program (question 92).
+  Open: whether the Moon AIs and the followers know about the weapons
+  program.
+
+- The sermon's danger is the data itself. The research includes
+  weapons research, and the Moon AIs fear it falling to the
+  corporations (question 98). The warning means "get it before they
+  do". The followers do not know this. They learn it in the hospital
+  (question 99).
+
 ## Why the hospital party had no rights
 
 - The sermon came too late to buy salvage rights. The danger sounded
@@ -218,13 +247,42 @@ The short version:
   hears the same sermons, can call them trespassers and buy the
   rights itself.
 
+## The hospital party
+
+- A large party of volunteers from various radio monasteries, plus a
+  few city dwellers who work for corporations and are on "vacation",
+  hiding that they are there.
+
+- Most are not combat-trained. One to three monastery members are
+  combat veterans who protect the others.
+
+- A respected monastery keeper leads, from the monastery that heard
+  the sermon first. The keeper has their own radio and is a spiritual
+  guide to the player if the player is a follower. The Warlock
+  advises as the signal-reader.
+
+- The Warlock gets two named companions: a combat veteran and a
+  hidden city dweller. The rest of the party is nameless.
+
+- Open: whether any hidden city dwellers work for this salvage
+  corporation.
+
 ## Followers' supporters inside the corporation
+
+- A superior above the supervisor is a secret follower. The order to
+  negotiate came from them. The player rarely meets them (question
+  87).
 
 - The followers have powerful supporters in the corporation. Someone
   above the supervisor ordered that the followers be negotiated with
   and not treated violently. The supervisor fears for his career if
   he angers a sympathetic superior. Details are in `decisions.md`,
   section "The supervisor's competing goals".
+
+## Signal implants and payloads (question 97)
+
+- Rogue hacking payloads reach only autonomous machines (drones and
+  robots). Implants are safe, including followers' signal implants.
 
 ## Open questions
 
@@ -236,8 +294,6 @@ The short version:
 - Do the followers know they are overheard?
 
 - Do the followers know the supervisor is crooked?
-
-- Are the Warlock's party members companions?
 
 - How the druids and the followers are unified, if at all.
 
@@ -251,6 +307,3 @@ The short version:
 - The Moon followers' own hierarchy, if any, and how a Warlock's
   standing in it works.
 
-- Is the Warlock's congregation an outpost monastery?
-
-- Can a rogue AI use a follower's signal implant?

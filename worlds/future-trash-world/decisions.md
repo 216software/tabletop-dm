@@ -1929,3 +1929,654 @@ Plot. Move to the secret files later.
 
 - Local details from the other options may still appear: a refused
   offer, or a price too high. They are not decided.
+
+## The Warlock's party (Matt, answering question 82)
+
+- Decided (question 82): option 2. A large party, not a small one.
+
+  - Volunteers from various radio monasteries.
+
+  - A few city dwellers, who are corporation employees. They are on
+    "vacation" and hide that they are there.
+
+- Most followers are not combat-trained. One, two or three of the
+  people from the radio monasteries are combat veterans, sent to
+  protect the others while they investigate the hospital.
+
+- This mirrors the salvage team: a team of mostly non-fighters, with
+  a few protectors who would rather avoid a fight. The Warlock is the
+  party's ear, as decided in question 72.
+
+- The hidden city dwellers are the natural place for the dual-
+  loyalty hook. They work for corporations, possibly this one. Being
+  found at the hospital would cost them their jobs, so the
+  supervisor's offer and his bluff about arrest matter more to them
+  than to the monastery volunteers. Not decided who, or whether any
+  work for this salvage corporation.
+
+- Not answered: how many named companions the Warlock gets (the
+  option offered "one or two"), and who leads the party. A party of
+  volunteers from several monasteries has no obvious single leader.
+  Open.
+
+- This resolves the open question of whether the party is one
+  monastery. It is not: it is a mix, called together by the same
+  sermon. The earlier guess that the Warlock's congregation is one
+  outpost monastery is replaced by this.
+
+## Who leads the hospital party (Matt, answering question 85)
+
+- Decided (question 85): option 1. A respected monastery keeper
+  leads the party. The keeper comes from the monastery that heard
+  the sermon first. The Warlock advises as the signal-reader.
+
+- The keeper has their own radio, so the Warlock's rig is not the
+  only receiver. The two can compare what they hear, and disagree.
+
+- The keeper is generally a spiritual guide to the player, if the
+  player is a Moon AI follower. This is the follower counterpart of
+  the supervisor for the salvage team and the elders for the druid:
+  the player's source of orders, advice and pressure.
+
+- When the supervisor comes, the keeper negotiates. The Warlock's
+  reading of the signals shapes the answer.
+
+- The keeper carries the obligation the player has to the community
+  (question 61, the debt hook): the player owes a report and a
+  result. Not stated by Matt, so a working assumption.
+
+- Not answered: how many named companions the Warlock gets from the
+  large party.
+
+- Consequences:
+
+  - The keeper needs a relationship table from the start, with rows
+    about the Warlock and the other party members.
+
+  - The keeper may be the one who decides whether to accept the
+    supervisor's offer, which puts the player in the position of
+    advising, not choosing.
+
+  - Open: whether the keeper is still a named NPC when the player is
+    not a follower (the salvage team and the druid meet them as the
+    negotiator).
+
+## Named companions for the Warlock (Matt, answering question 86)
+
+- Decided (question 86): option 2. Two named companions.
+
+  - **A combat veteran** from a radio monastery, who protects the
+    party.
+
+  - **A hidden city dweller** on "vacation", with a corporate job to
+    lose. The person closest to the dual-loyalty hook, and the one
+    most afraid of the supervisor.
+
+- No technician companion. The radios and the rig are the Warlock's
+  job (and the keeper's, who has a radio of their own).
+
+- Each companion has a relationship table from the start. The rest
+  of the large party stays nameless, and the DM may promote one if
+  the story calls for it.
+
+- Not answered: whether the companions are fixed in the world data or
+  picked by the player at creation. Working assumption: fixed in the
+  world data, so that the shared events stay the same in every run.
+  Open.
+
+## The dual-loyalty NPC (Matt, answering question 87)
+
+Plot. Move to the secret files later.
+
+- Decided (question 87): option 3. The dual-loyalty NPC is a
+  superior above the supervisor. One of the sympathetic superiors is
+  a secret follower, and the order to negotiate with the followers
+  came from them.
+
+- The player rarely meets this person. Their influence is felt in the
+  supervisor's fear (his goal 4). The player can only guess.
+
+- This replaces the recommended team-member insider (option 1). The
+  analyst and the security members stay ordinary NPCs. The hidden
+  city dwellers in the Warlock's party stay as they are
+  (question 82).
+
+- The superior needs a relationship table, with rows about the
+  supervisor and, once something happens that involves them, about
+  the player.
+
+- Not answered:
+
+  - Whether the player can discover the superior's second loyalty,
+    or it stays hidden unless the DM reveals it.
+
+  - Whether the superior is named and appears later in the world
+    (another mission, a meeting after the run).
+
+  - Whether the superior knows about the supervisor's smuggling.
+    That would tie the two plots together.
+
+## What the player can learn about the superior (Matt, answering question 88)
+
+Plot. Move to the secret files later.
+
+- Decided (question 88): option 1. The player can find out, through
+  small clues, that someone above the supervisor is sympathetic to
+  the followers.
+
+  - Example clues: the supervisor flinches at a name, a follower
+    hints at supporters, a document carries a signature he avoids
+    mentioning.
+
+  - A sharp player can work out who it is. The superior stays out of
+    sight unless the DM reveals them.
+
+- The superior knows nothing about the supervisor's smuggling. The two
+  plots stay separate: the supervisor's fear of the sympathetic
+  superiors is real, and so is the smuggling he hides from everyone.
+
+- The player gets two different things to uncover.
+
+- Option 2 (the superior knows about the smuggling and uses it) is
+  kept as a possible later seed, not part of this run.
+
+- Not answered: whether the superior appears later in the world, as a
+  patron for another mission or a person the player meets after the
+  run. Open.
+
+## What is in the hospital, and the secret orders (Matt, answering question 89)
+
+Plot. Move to the secret files later.
+
+Matt did not choose among the menu options offered. He fixed the main
+line of the first mission instead. This replaces the "DM chooses the
+truth of the hospital" menu for this ruin. The earlier rule still
+holds for random hazards and later ruins.
+
+### What the Moon AIs want
+
+- The Moon AIs have been sifting data collected from all over about
+  pre-collapse medical research. They found reports of research done
+  at this hospital, and they want the data from it.
+
+- The followers are there to dig up the research, build an antenna,
+  and broadcast it up to the Moon AIs for further analysis.
+
+- The followers are not interested in the memory transfer
+  technology. They want the data from the research labs.
+
+### What the supervisor wants
+
+- His orders are to negotiate, and also to get a copy of the same
+  information.
+
+- Ideally he is to sabotage the antenna, so that the Moon AIs do not
+  get a copy. The sabotage part is a secret.
+
+- He also hopes to smuggle some analog memory transfer equipment out
+  secretly.
+
+### The memory transfer lab
+
+- There is a memory transfer lab in the hospital. Its equipment is
+  worth a lot on the black market, because it is used to do analog
+  memory transfers into clones (see the cloning section).
+
+- Part of the mission is exploring the memory transfer lab. It is
+  patrolled by roving AI security drones, and there are other random
+  menaces.
+
+### Consequences
+
+- The supervisor's goals grow from four to include the sabotage
+  order and the equipment smuggling. They conflict with each other
+  and with goal 4 (do not anger sympathetic superiors): sabotage
+  would anger them if it were found out.
+
+- The sabotage order cannot come from the superior who ordered the
+  negotiation. Someone else gave it. Open (see below).
+
+- The followers have a clear goal and a clock: find the data, build
+  the antenna, transmit. The antenna is a target for sabotage and a
+  possible beacon for rogue AIs. Open.
+
+- The equipment is bulky. The supervisor's plan to hide items in the
+  carriers' bags works for small parts. Open: what he smuggles and
+  how.
+
+- The "roving AI security drones" are a new element. The AI taboo
+  and the rogue-AI threads apply. Open: whether they are the
+  hospital's own old security system, a rogue AI, or something the
+  Moon sermons warned of.
+
+- The sermon's "danger in the ruin" is still the followers' reason to
+  go. Open: whether the danger is real, a cover, or the drones and
+  the lab.
+
+- Open: whether a player on the salvage team learns of the sabotage
+  order, and from whom.
+
+## Who ordered the sabotage (Matt, answering question 90)
+
+Plot. Move to the secret files later.
+
+- Decided (question 90): option 1. A rival superior in the same
+  corporation ordered the sabotage, in secret.
+
+  - One superior sympathizes with the followers and ordered the
+    negotiation (question 87).
+
+  - Another opposes them and wants the Moon AIs kept from the data.
+    This is the one who gave the sabotage order.
+
+  - The supervisor is caught between two bosses. Neither knows what
+    the other told him.
+
+- This is corporate infighting, in the style already set: consensus,
+  alliances and bribes. It adds a second unseen superior and no new
+  event.
+
+- The hints about "someone above him" (question 88) can lead to
+  either superior. The player cannot tell which is which at first.
+
+- Option 2 (the same superior, as a double game) is kept as a
+  possible later reveal, not part of this run.
+
+- The rival superior needs a relationship table, with rows about the
+  supervisor and the sympathetic superior.
+
+- Not answered: whether a salvage-team player ever learns about the
+  sabotage, or it stays hidden unless they overhear it. Open.
+
+## The player may be told to sabotage the antenna (Matt, side note to question 91)
+
+Plot. Move to the secret files later.
+
+- The supervisor may tell a salvage-team player to sabotage the
+  antenna, after he has obtained the data. This partly answers the
+  open question of whether a salvage-team player learns about the
+  sabotage: yes, as an order, and only after the data is in his hands.
+
+- The player is the one who does the sabotage, so the player carries
+  the risk and the blame. The followers, and the sympathetic
+  superior, will see the player as the saboteur, not the supervisor.
+  This fits the supervisor's habit of putting the risk on the
+  lowest-ranked member (question 80).
+
+- Consequences:
+
+  - The player has a real choice: obey the order, refuse it, or warn
+    the followers. Each moves relationship rows with the supervisor,
+    the followers and the keeper.
+
+  - The order comes after the data, so the followers have already
+    given it up. The sabotage then costs the followers the broadcast
+    and the Moon AIs the data.
+
+  - A player who refuses may be the next target of the supervisor's
+    pressure (see the smuggling frame-up).
+
+- Open: whether he tells the player the real reason, and what he
+  offers for it (a cut, a good report, silence).
+
+## The drones and the insects (Matt, answering question 91)
+
+- Decided (question 91): option 1. The drones are the hospital's own
+  old security system, still running. No rogue AI controls them.
+
+- The drones patrol the memory transfer lab. They are programmed to
+  exterminate escaped mutant insects.
+
+- As part of the research, scientists kept a breeding program of
+  various mutant insects. That population escaped and has nests
+  throughout the hospital complex.
+
+- The drones try to destroy the insects. The insects avoid the
+  drones or attack them.
+
+- So the hospital has two hazards that fight each other, and the
+  party is caught between them. The party can use that: lead insects
+  to a drone, or lure a drone away.
+
+- There is a variety of insects, each with different attacks. Matt
+  will define them. Open: what they are, what they were bred for,
+  and the attacks.
+
+- This is a local answer to the old question about the origin of the
+  giant insects (a known fact, or a mystery for a seed?). These are
+  research escapees from one hospital. Whether the insects of the
+  wider world have the same origin is open.
+
+- Open: whether the drones attack people (they might read humans as
+  intruders in the lab, or ignore them), and whether the drones can
+  be taken over or reprogrammed (a fit for Hacking, Robotics and
+  the druid's gadgets).
+
+## What the insects were bred for (Matt, answering question 92)
+
+- Decided (question 92): options 1 and 2 together. The hospital ran
+  two research programs on insects.
+
+  - **Livestock for useful products.** Insects bred to produce
+    things useful in medicine and elsewhere (venom, silk,
+    secretions, tissue).
+
+  - **Mutations for biological weapons.** Military-grade research.
+
+- Some of the escaped insects are descendants of the military-grade
+  mutations. So the population mixes livestock lines, which are
+  mostly useful and less dangerous, with weapon lines, which are
+  dangerous.
+
+- Consequences:
+
+  - The hospital was not only a place of care. It held military
+    research, which fits the heavy contamination and corporate
+    secrecy of the old world. Open: who ran the military program (a
+    government, a corporation, or both, since they merged).
+
+  - The data the Moon AIs want may include both. Open: which of the
+    two the sermon pointed at, and whether the followers know the
+    military program existed. The Moon AIs "do not like to help one
+    faction hurt another", so weapon research is a delicate subject.
+
+  - The product insects have a second value: a living supply of
+    medical goods, which the supervisor or the black market may want
+    alongside the lab equipment. Open.
+
+  - The party will meet two kinds of insect: ones that are strange
+    and sometimes useful, and ones that are only dangerous. The DM
+    can show the difference with behavior.
+
+- Open: how many kinds of insects there are and what each one does.
+  Matt will define them.
+
+## The insect types (Matt, answering question 93)
+
+- Decided (question 93): option 3. Matt defines the insects. Three
+  kinds so far.
+
+- **Gigantic roaches.**
+
+  - Mostly non-aggressive scavengers. They flee when cornered.
+
+  - Weak claws and a weak bite, but a large swarm is dangerous.
+
+- **Beetles.**
+
+  - Now very large. Size varies from dog-sized to as big as a car.
+
+  - They spit acid and have sharp claws.
+
+  - Mostly solitary. Aggressive. They try to eat any human they see
+    and never flee a fight.
+
+  - Armored. The armor resists a lot of attacks but is not
+    impervious.
+
+- **Large worms.**
+
+  - Mostly dig tunnels. Nearly oblivious to everything. Harmless,
+    but disgusting.
+
+- Fit with the encounter ideas: the roaches reward avoiding or
+  scattering them, the beetles are the "run" encounter, and the worms
+  are scenery that can open a path (their tunnels) or ruin one. The
+  drones hunt all three, but the beetles and the swarms are the real
+  fights.
+
+- Not answered:
+
+  - Which research program each kind came from (livestock or
+    weapons). The beetles look like the weapons line. The worms and
+    roaches look like the livestock line or scavenger stock. Working
+    assumption, to confirm.
+
+  - Whether any of the kinds yields a useful product (venom, silk,
+    secretions, tissue) for the livestock line.
+
+  - Whether there are more kinds, for example something that flies
+    or something that commands the others.
+
+  - How the nests work: where they are, and whether the beetles guard
+    them.
+
+## Where each insect came from (Matt, answering question 94)
+
+- Decided (question 94): option 1.
+
+  - **Beetles:** the weapons line. Bred as living weapons, the
+    military-grade descendants. Salvage value: armor plates and acid
+    glands.
+
+  - **Roaches:** the livestock line. A cheap, fast-growing protein
+    or waste-eating animal. The swarms are what happens when it
+    breeds unchecked. Possible products: protein, chitin.
+
+  - **Worms:** the livestock line. A working animal for tunneling or
+    for processing material. Possible products: castings or
+    secretions for medicine or soil.
+
+- The product details are my proposals from the option. Matt took the
+  option without changing them, so they stand unless he corrects
+  them.
+
+- Beetle sizes (Matt): there is a variety. The smaller ones are a
+  challenge for the party. The largest might need the party to avoid
+  or trap it, not defeat it in combat. This is the "flee or leave for
+  later" idea (question 78) in a concrete form: the car-sized beetle
+  is a hazard to get around.
+
+- Nothing commands the others. There are no queens, no leaders and no
+  hive. They are wild animals mostly wandering on their own. This
+  answers the earlier question about a creature that commands the
+  rest: none.
+
+- No more kinds so far. Roaches, beetles and worms are the list.
+
+- Consequences:
+
+  - Trapping a beetle is a playable solution: a drone, a collapsed
+    corridor, a tunnel dug by worms, a web. It fits the druid's
+    cleverly disruptive gadgets and the Engineer's skills.
+
+  - The drones hunt the beetles. A large beetle against a drone is
+    a fight the party can watch, use or avoid.
+
+  - With no hive mind, the insects do not coordinate against the
+    party. The danger comes from numbers (roach swarms), size
+    (beetles) and place (a nest in the way).
+
+- Open: nest locations, and what the largest beetle is doing (a
+  specific nest, a wanderer, or a guardian of something).
+
+## The drones and people (Matt, answering question 95)
+
+- Matt did not pick among the three options offered. His answer
+  replaces them.
+
+- The drones are a mixed bag. Their original programming forbids
+  them to attack people, but some have been hacked.
+
+- Two kinds:
+
+  - **Flying drones**, with minimal weapons.
+
+  - **Larger ground units**, with more sophisticated weapons.
+
+- Any drone can in theory be hacked by the player, using skill
+  checks.
+
+  - **Remotely:** more difficult.
+
+  - **Up close,** if the player can attach equipment to the drone:
+    much easier to succeed, but more dangerous.
+
+- Consequences:
+
+  - Most drones are safe to pass: they hunt insects and leave people
+    alone. The hacked ones are the danger, and the party cannot tell
+    at a glance which drones are hacked.
+
+  - A hacked drone that attacks people is a rule-breaker that the
+    drone's own kind ignore. Open: whether healthy drones react to
+    hacked ones.
+
+  - Hacking a drone is a playable tool: a flying drone as a scout, a
+    ground unit as a guard, a way to clear a beetle. The AI taboo
+    applies: working on a drone is the "unauthorized work on robot
+    AI" that the world calls hacking, and the penalty depends on who
+    you are.
+
+  - Close hacking is a risk-versus-reward choice, which suits the
+    "creative flee or leave for later" design. The dangerous part is
+    being near a drone that may be hacked or may fight back.
+
+- Open:
+
+  - Who hacked the hacked drones, and why (see the next question).
+
+  - Whether a hacked drone can follow the party or only guard one
+    place.
+
+  - What the Moon followers and the salvage team do with the drones:
+    the supervisor would want one; the followers distrust the tool.
+
+## Who hacked the drones (Matt, answering question 96)
+
+Plot. The rogue AI identities stay out of the player-safe bible.
+
+- Decided (question 96): option 2, in a wider form. There are rogue
+  AI bases throughout the wilderness, broadcasting hacking payloads.
+  Sometimes a payload reaches a drone and reprograms it.
+
+- So the hacked drones have no single author inside the hospital.
+  This is a world fact, not a hospital-only villain. It fits the
+  earlier rogue AI notes (many small scattered programs, a few
+  ancient named ones, dormant ones) and the earlier idea that even
+  safe AIs can be corrupted remotely by rogue ones.
+
+- Consequences:
+
+  - The hacking can happen during play. A drone that was harmless
+    when the party arrived can be reprogrammed later by a payload
+    that reaches it. The DM can use this as a clock.
+
+  - The antenna the followers build is a transmitter. It may draw
+    payloads or the attention of a rogue base. Open.
+
+  - The jamming in the signal war (Moon AIs and rogue AIs) and the
+    druids' jamming gear apply to payloads. Open: whether the gear
+    blocks them.
+
+  - It gives the old rule "even simple, safe AIs could be corrupted
+    remotely" a concrete scene.
+
+- Open:
+
+  - What the payloads do to a drone (turn it hostile to people, make
+    it hunt the party, or make it follow orders from the base).
+
+  - What the rogue bases want. Plot, so a secret file.
+
+  - Whether a payload can reach things other than drones: the
+    party's gear, the followers' signal implants, a trooper's link.
+
+## What the payloads can reach (Matt, answering question 97)
+
+- Decided (question 97): option 2. Hacking payloads reprogram drones
+  and robots, the machines that can act on their own. Nothing else.
+
+- The party's gear is safe, and so are all implants, including the
+  followers' signal implants and a trooper's nervous-system link.
+  This supersedes the open questions about those three.
+
+- This removes the corruption risk that the earlier notes tied to
+  the Engineer's swarms and drones (Rules mapping idea), and to the
+  signal implants. Open: whether the Engineer's own drones and
+  swarms count as "robots" and can be reprogrammed. They probably do,
+  since they are autonomous machines.
+
+- The danger of the broadcasts is limited to autonomous machines.
+  The party's exposure comes from drones in the ruin and from any
+  robot or drone of their own, so a player Engineer with drones is
+  at risk, and the druid's simple gadgets are not.
+
+- The antenna question is open again: the transmitter is dangerous
+  only if it draws a rogue base's attention to drones nearby, not
+  because it can be hacked itself.
+
+- The rogue AIs' other threats remain (jamming the Moon signals,
+  counterfeit sermons, bad advice). Those work on people and not
+  through payloads.
+
+## Is the sermon's danger real? (Matt, answering question 98)
+
+Plot. Move to the secret files later.
+
+- Decided (question 98): option 3. The danger is the data itself.
+  The hospital's research includes weapons research (the insect
+  weapons program and possibly more), and the Moon AIs fear it
+  falling to the corporations. The warning means "get it before they
+  do".
+
+- So the warning is true, and it explains the supervisor's sabotage
+  order from the other side: the rival superior wants the Moon AIs
+  kept from the data, and the Moon AIs want the data kept from the
+  corporations. Each side thinks the other must not have it.
+
+- Consequence for the supervisor: the copy of the data he is told to
+  get is exactly what the Moon AIs fear. A salvage team that
+  delivers it hands the corporation a weapon.
+
+- Tension to resolve: the Moon AIs "do not like to help one faction
+  of humanity hurt another" (The Moon AIs and the signal war), yet
+  they want weapons research sent to the Moon. Working reading: they
+  want to analyze it and keep it from anyone who would use it. Not
+  confirmed. Open.
+
+- This does not remove the insects as the visible danger. The
+  followers may still expect a leak or a cleanup, and may not know
+  about the weapons data. That is the next question.
+
+- Open:
+
+  - What the sermon actually said (a vague "danger is growing", or
+    something more exact).
+
+  - What the weapons research is besides the insects.
+
+  - Whether a salvage-team or scavenger player can learn about the
+    weapons data, and what the player does with that knowledge.
+
+## Who knows about the weapons data (Matt, answering question 99)
+
+Plot. Move to the secret files later.
+
+- Decided (question 99): option 2. Nobody among the followers knows
+  until they find it. The sermon said only that a danger is growing.
+  The party learns about the weapons research when they read it, in
+  play.
+
+- This means the keeper is no wiser than the others on this point.
+  The keeper's radio still hears more than the Warlock's rig, but not
+  the secret. The keeper's role as spiritual guide rests on faith and
+  experience, not on inside knowledge.
+
+- The reveal happens in play, and the followers' reaction is real.
+  Open: how they react (share it with the Moon anyway, destroy it,
+  hide it, split over what to do).
+
+- This supersedes the "get it before they do" reading for the
+  followers. They are not told that. Only the Moon AIs know why they
+  want the data. The sermon's warning stays true, but the followers
+  hear only a part of it.
+
+- The Moon AIs sent the followers without telling them the whole
+  reason. That makes the Moon AIs' honesty a question the keeper and
+  the Warlock can raise. Open: whether the Moon AIs mean to tell the
+  followers later, and whether withholding it counts as a lie in the
+  followers' eyes.
+
+- The hidden city dwellers learn it when everyone else does. Their
+  jobs are at stake if the corporation hears of it.

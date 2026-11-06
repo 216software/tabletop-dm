@@ -4,17 +4,18 @@ Resume the interview here. Claude asks one question at a time, with a
 recommendation and options. Matt answers, and Claude takes notes in
 `decisions.md`. All answers so far are in `decisions.md`.
 
-Questions 36 to 84 are answered and recorded in `decisions.md`. The
-interview is at question 85. Design rule from Matt: all starts share
+Questions 36 to 99 are answered and recorded in `decisions.md`. The
+interview is at question 100. Design rule from Matt: all starts share
 the same events (see `decisions.md`).
 
 ## Next up
 
-0. **Q82, pending (Matt will answer later): the Warlock's party.**
-   Matt wants to redefine and add more first. Other unanswered items:
-   whether risk rises over time in a ruin (a rules item), who the
-   dual-loyalty NPC is, and the lists below. Rules questions go in
-   `rules-questions.md`.
+0. **Q100, pending: the followers' reaction.** Q99 is answered
+   (nobody knows until they find it, in `decisions.md`). Ask how the
+   followers react when they read the weapons research. Other open
+   items: what the supervisor smuggles, nest locations, what the
+   weapons research is besides the insects, and whether the superiors
+   return later. Rules questions go in `rules-questions.md`.
 
 1. **Hospital detail.** Defeat means the hospital and a bill (a
    work-off contract only on a big bill). Open: how the bill is
